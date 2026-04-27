@@ -22,7 +22,8 @@
   "homepage": "https://github.com/Samuel-Berard/Projet-JS-Y-Shop#readme",
   "dependencies": {
     "cors": "^2.8.6",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "morgan": "^1.10.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
