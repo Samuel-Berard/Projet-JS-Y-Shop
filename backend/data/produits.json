@@ -13,9 +13,8 @@
         "categorie": "Paramecia",
         "couleurs": "violet",
         "Ancien détenteur": "Monkey D. Luffy",
-        "spoiler" : "spoiler"
+        "spoiler": "spoiler"
     },
-
     {
         "id": 2,
         "nom": "Hito Hito no mi / Fruit de l'Humain",
@@ -25,7 +24,7 @@
         "devise": "BERRY",
         "images": [
             "Hito_Hito_no_Mi_Fruit.webp",
-            "Hito_Hto_no_Mi_Anime_Infobox.webp"
+            "Tony_Tony_Chopper_Anime_Post_Ellipse_Infobox.webp"
         ],
         "categorie": "Zoan",
         "couleurs": [
@@ -33,9 +32,8 @@
             "Beige"
         ],
         "Ancien détenteur": "Tony Tony Chopper",
-        "spoiler" : "spoiler"
+        "spoiler": "spoiler"
     },
-
     {
         "id": 3,
         "nom": "Mera Mera no mi / Pyro-Fruit",
@@ -44,15 +42,14 @@
         "prix": 3000000000,
         "devise": "BERRY",
         "images": [
-            "Mera_Mera_no_Mi_Fruit.webp",
+            "Mera_Mera_no_Mi_Fruit_Anime.webp",
             "Mera_Mera_no_Mi_Anime_Infobox.webp"
         ],
         "categorie": "Logia",
         "couleurs": "orange",
         "Ancien détenteur": "Portgas D. Ace, Sabo",
-        "spoiler" : "spoiler"
+        "spoiler": "spoiler"
     },
-
     {
         "id": 4,
         "nom": "Yomi Yomi no mi / Fruit de la résurrection",
@@ -70,7 +67,310 @@
             "Jaune"
         ],
         "Ancien détenteur": "Brook le Fredonneur",
-        "spoiler" : "spoiler"
+        "spoiler": "spoiler"
+    },
+    {
+        "id": 4,
+        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
+        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
+        "stock": 18,
+        "prix": 10000000000,
+        "devise": "BERRY",
+        "images": [
+            "Yomi_Yomi_no_Mi_Fruit.webp",
+            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+        ],
+        "categorie": "Paramecia",
+        "couleurs": [
+            "Rouge",
+            "Jaune"
+        ],
+        "Ancien détenteur": "Brook le Fredonneur",
+        "spoiler": "spoiler"
+    },
+    {
+        "id": 4,
+        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
+        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
+        "stock": 18,
+        "prix": 10000000000,
+        "devise": "BERRY",
+        "images": [
+            "Yomi_Yomi_no_Mi_Fruit.webp",
+            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+        ],
+        "categorie": "Paramecia",
+        "couleurs": [
+            "Rouge",
+            "Jaune"
+        ],
+        "Ancien détenteur": "Brook le Fredonneur",
+        "spoiler": "spoiler"
+    },
+    {
+        "id": 4,
+        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
+        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
+        "stock": 18,
+        "prix": 10000000000,
+        "devise": "BERRY",
+        "images": [
+            "Yomi_Yomi_no_Mi_Fruit.webp",
+            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+        ],
+        "categorie": "Paramecia",
+        "couleurs": [
+            "Rouge",
+            "Jaune"
+        ],
+        "Ancien détenteur": "Brook le Fredonneur",
+        "spoiler": "spoiler"
+    },
+    {
+        "id": 4,
+        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
+        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
+        "stock": 18,
+        "prix": 10000000000,
+        "devise": "BERRY",
+        "images": [
+            "Yomi_Yomi_no_Mi_Fruit.webp",
+            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+        ],
+        "categorie": "Paramecia",
+        "couleurs": [
+            "Rouge",
+            "Jaune"
+        ],
+        "Ancien détenteur": "Brook le Fredonneur",
+        "spoiler": "spoiler"
+    },
+    {
+        "id": 4,
+        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
+        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
+        "stock": 18,
+        "prix": 10000000000,
+        "devise": "BERRY",
+        "images": [
+            "Yomi_Yomi_no_Mi_Fruit.webp",
+            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+        ],
+        "categorie": "Paramecia",
+        "couleurs": [
+            "Rouge",
+            "Jaune"
+        ],
+        "Ancien détenteur": "Brook le Fredonneur",
+        "spoiler": "spoiler"
+    },
+    {
+        "id": 4,
+        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
+        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
+        "stock": 18,
+        "prix": 10000000000,
+        "devise": "BERRY",
+        "images": [
+            "Yomi_Yomi_no_Mi_Fruit.webp",
+            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+        ],
+        "categorie": "Paramecia",
+        "couleurs": [
+            "Rouge",
+            "Jaune"
+        ],
+        "Ancien détenteur": "Brook le Fredonneur",
+        "spoiler": "spoiler"
+    },
+    {
+        "id": 4,
+        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
+        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
+        "stock": 18,
+        "prix": 10000000000,
+        "devise": "BERRY",
+        "images": [
+            "Yomi_Yomi_no_Mi_Fruit.webp",
+            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+        ],
+        "categorie": "Paramecia",
+        "couleurs": [
+            "Rouge",
+            "Jaune"
+        ],
+        "Ancien détenteur": "Brook le Fredonneur",
+        "spoiler": "spoiler"
+    },
+    {
+        "id": 4,
+        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
+        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
+        "stock": 18,
+        "prix": 10000000000,
+        "devise": "BERRY",
+        "images": [
+            "Yomi_Yomi_no_Mi_Fruit.webp",
+            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+        ],
+        "categorie": "Paramecia",
+        "couleurs": [
+            "Rouge",
+            "Jaune"
+        ],
+        "Ancien détenteur": "Brook le Fredonneur",
+        "spoiler": "spoiler"
+    },
+    {
+        "id": 4,
+        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
+        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
+        "stock": 18,
+        "prix": 10000000000,
+        "devise": "BERRY",
+        "images": [
+            "Yomi_Yomi_no_Mi_Fruit.webp",
+            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+        ],
+        "categorie": "Paramecia",
+        "couleurs": [
+            "Rouge",
+            "Jaune"
+        ],
+        "Ancien détenteur": "Brook le Fredonneur",
+        "spoiler": "spoiler"
+    },
+    {
+        "id": 4,
+        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
+        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
+        "stock": 18,
+        "prix": 10000000000,
+        "devise": "BERRY",
+        "images": [
+            "Yomi_Yomi_no_Mi_Fruit.webp",
+            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+        ],
+        "categorie": "Paramecia",
+        "couleurs": [
+            "Rouge",
+            "Jaune"
+        ],
+        "Ancien détenteur": "Brook le Fredonneur",
+        "spoiler": "spoiler"
+    },
+    {
+        "id": 4,
+        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
+        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
+        "stock": 18,
+        "prix": 10000000000,
+        "devise": "BERRY",
+        "images": [
+            "Yomi_Yomi_no_Mi_Fruit.webp",
+            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+        ],
+        "categorie": "Paramecia",
+        "couleurs": [
+            "Rouge",
+            "Jaune"
+        ],
+        "Ancien détenteur": "Brook le Fredonneur",
+        "spoiler": "spoiler"
+    },
+    {
+        "id": 4,
+        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
+        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
+        "stock": 18,
+        "prix": 10000000000,
+        "devise": "BERRY",
+        "images": [
+            "Yomi_Yomi_no_Mi_Fruit.webp",
+            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+        ],
+        "categorie": "Paramecia",
+        "couleurs": [
+            "Rouge",
+            "Jaune"
+        ],
+        "Ancien détenteur": "Brook le Fredonneur",
+        "spoiler": "spoiler"
+    },
+    {
+        "id": 4,
+        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
+        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
+        "stock": 18,
+        "prix": 10000000000,
+        "devise": "BERRY",
+        "images": [
+            "Yomi_Yomi_no_Mi_Fruit.webp",
+            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+        ],
+        "categorie": "Paramecia",
+        "couleurs": [
+            "Rouge",
+            "Jaune"
+        ],
+        "Ancien détenteur": "Brook le Fredonneur",
+        "spoiler": "spoiler"
+    },
+    {
+        "id": 4,
+        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
+        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
+        "stock": 18,
+        "prix": 10000000000,
+        "devise": "BERRY",
+        "images": [
+            "Yomi_Yomi_no_Mi_Fruit.webp",
+            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+        ],
+        "categorie": "Paramecia",
+        "couleurs": [
+            "Rouge",
+            "Jaune"
+        ],
+        "Ancien détenteur": "Brook le Fredonneur",
+        "spoiler": "spoiler"
+    },
+    {
+        "id": 4,
+        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
+        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
+        "stock": 18,
+        "prix": 10000000000,
+        "devise": "BERRY",
+        "images": [
+            "Yomi_Yomi_no_Mi_Fruit.webp",
+            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+        ],
+        "categorie": "Paramecia",
+        "couleurs": [
+            "Rouge",
+            "Jaune"
+        ],
+        "Ancien détenteur": "Brook le Fredonneur",
+        "spoiler": "spoiler"
+    },
+    {
+        "id": 4,
+        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
+        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
+        "stock": 18,
+        "prix": 10000000000,
+        "devise": "BERRY",
+        "images": [
+            "Yomi_Yomi_no_Mi_Fruit.webp",
+            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+        ],
+        "categorie": "Paramecia",
+        "couleurs": [
+            "Rouge",
+            "Jaune"
+        ],
+        "Ancien détenteur": "Brook le Fredonneur",
+        "spoiler": "spoiler"
     }
- 
 ]
