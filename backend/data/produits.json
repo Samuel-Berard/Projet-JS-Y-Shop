@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "nom": "Gomu Gomu no Mi / Fruit du caoutchouc",
-        "description": "Le Gomu Gomu no Mi est un Fruit du Démon de type Paramecia qui confère à son utilisateur un corps élastique",
+        "nom": "Gomu Gomu no mi / Fruit du caoutchouc",
+        "description": "Le Gomu Gomu no mi est un Fruit du Démon de type Paramecia qui confère à son utilisateur un corps élastique.",
         "stock": 18,
         "prix": 1000000000,
         "devise": "BERRY",
@@ -12,7 +12,64 @@
         ],
         "categorie": "Paramecia",
         "couleurs": "violet",
-        "utilisateur précédent": "Monkey D. Luffy",
+        "Ancien détenteur": "Monkey D. Luffy",
+        "spoiler" : "spoiler"
+    },
+
+    {
+        "id": 2,
+        "nom": "Hito Hito no mi / Fruit de l'Humain",
+        "description": "Le Hito Hito no mi est un Fruit du Démon de type Zoan qui permet à son utilisateur de se transformer en hybride humain ou en humain à part entière.",
+        "stock": 45,
+        "prix": 500000000,
+        "devise": "BERRY",
+        "images": [
+            "Hito_Hito_no_Mi_Fruit.webp",
+            "Hito_Hto_no_Mi_Anime_Infobox.webp"
+        ],
+        "categorie": "Zoan",
+        "couleurs": [
+            "Rouge",
+            "Beige"
+        ],
+        "Ancien détenteur": "Tony Tony Chopper",
+        "spoiler" : "spoiler"
+    },
+
+    {
+        "id": 3,
+        "nom": "Mera Mera no mi / Pyro-Fruit",
+        "description": "Le Mera Mera no mi est un Fruit du Démon de type Logia qui permet à son utilisateur de créer, contrôler et de se transformer en feu et flammes à volonté.",
+        "stock": 18,
+        "prix": 3000000000,
+        "devise": "BERRY",
+        "images": [
+            "Mera_Mera_no_Mi_Fruit.webp",
+            "Mera_Mera_no_Mi_Anime_Infobox.webp"
+        ],
+        "categorie": "Logia",
+        "couleurs": "orange",
+        "Ancien détenteur": "Portgas D. Ace, Sabo",
+        "spoiler" : "spoiler"
+    },
+
+    {
+        "id": 4,
+        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
+        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
+        "stock": 18,
+        "prix": 10000000000,
+        "devise": "BERRY",
+        "images": [
+            "Yomi_Yomi_no_Mi_Fruit.webp",
+            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+        ],
+        "categorie": "Paramecia",
+        "couleurs": [
+            "Rouge",
+            "Jaune"
+        ],
+        "Ancien détenteur": "Brook le Fredonneur",
         "spoiler" : "spoiler"
     }
  
