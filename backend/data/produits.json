@@ -1,21 +1,19 @@
 [
     {
         "id": 1,
-        "nom": "Gomu Gomu no Mi",
+        "nom": "Gomu Gomu no Mi / Fruit du caoutchouc",
         "description": "Le Gomu Gomu no Mi est un Fruit du Démon de type Paramecia qui confère à son utilisateur un corps élastique",
-        "stock": 5,
-        "prix": 299,
+        "stock": 18,
+        "prix": 1000000000,
         "devise": "BERRY",
         "images": [
             "Gomu_Gomu_no_Mi_Fruit.webp",
             "Gomu_Gomu_no_Mi_Anime_Infobox.webp"
         ],
         "categorie": "Paramecia",
-        "couleurs": [
-            "rouge",
-            "violet"
-        ],
-        "puissance": "S",
-        "utilisateur": "Monkey D. Luffy"
+        "couleurs": "violet",
+        "utilisateur précédent": "Monkey D. Luffy",
+        "spoiler" : "spoiler"
     }
+ 
 ]
