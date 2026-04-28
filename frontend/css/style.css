@@ -328,7 +328,7 @@ header .navbar {
     width: 40px;
     height: 40px;
     border-radius: var(--border-radius-l);
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: var(--text-color);
     color: var(--white-color);
     font-size: var(--font-size-m);
     transition: 0.3s ease;
