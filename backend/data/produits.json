@@ -53,7 +53,7 @@
     {
         "id": 4,
         "nom": "Yomi Yomi no mi / Fruit de la résurrection",
-        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
+        "description": "Le Yomi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un Homme-Ressucité.",
         "stock": 18,
         "prix": 10000000000,
         "devise": "BERRY",
@@ -70,307 +70,289 @@
         "spoiler": "spoiler"
     },
     {
-        "id": 4,
-        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
-        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
-        "stock": 18,
-        "prix": 10000000000,
+        "id": 5,
+        "nom": "Yami Yami no mi / Fruit des Ténèbres",
+        "description": "Le Yami Yami no mi est un Fruit du Démon de type Logia qui permet à son utilisateur de produire, devenir et contrôler les ténèbres, le transformant ainsi en Homme-Ténèbres",
+        "stock": 3,
+        "prix": 50000000000,
         "devise": "BERRY",
         "images": [
-            "Yomi_Yomi_no_Mi_Fruit.webp",
-            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+            "Yami_Yami_no_Mi_Fruit.webp",
+            "Yami_Yami_no_Mi_Anime_Infobox.webp"
         ],
-        "categorie": "Paramecia",
-        "couleurs": [
-            "Rouge",
-            "Jaune"
-        ],
-        "Ancien détenteur": "Brook le Fredonneur",
+        "categorie": "Logia",
+        "couleurs": "Lavande",
+        "Ancien détenteur": "Marshall D. Teach alias Barbe Noire",
         "spoiler": "spoiler"
     },
     {
-        "id": 4,
-        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
-        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
-        "stock": 18,
-        "prix": 10000000000,
+        "id": 6,
+        "nom": "Gura Gura no mi / Fruit du Temblement",
+        "description": "Le Gura Gura no mi est un Fruit du Démon de type Paramecia qui permet de transformer son utilisateur en un Homme Tremblement de Terre.",
+        "stock": 67,
+        "prix": 20000000000,
         "devise": "BERRY",
         "images": [
-            "Yomi_Yomi_no_Mi_Fruit.webp",
-            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+            "Gura_Gura_no_Mi_Fruit.webp",
+            "Gura_Gura_no_Mi_Anime_Infobox.webp"
         ],
         "categorie": "Paramecia",
         "couleurs": [
-            "Rouge",
-            "Jaune"
+            "Violet",
+            "Blanc"
         ],
-        "Ancien détenteur": "Brook le Fredonneur",
+        "Ancien détenteur": "Edward Newgate alias Barbe Blanche, Marshall D. Teach alias Barbe Noire",
         "spoiler": "spoiler"
     },
     {
-        "id": 4,
-        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
-        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
-        "stock": 18,
-        "prix": 10000000000,
+        "id": 7,
+        "nom": "Uo Uo no mi / Fruit du Dragon Azur",
+        "description": "Le Uo Uo no mi est un Fruit du Démon de type Zoan Mythique. Il permet de transformer son utilisateur en dragon azur.",
+        "stock": 5000,
+        "prix": 200000000,
         "devise": "BERRY",
         "images": [
-            "Yomi_Yomi_no_Mi_Fruit.webp",
-            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+            "Uo_Uo_no_Mi3Fle_Seiryu_Fruit.webp",
+            "Uo_Uo_no_Mi_Anime_Infobox.webp"
         ],
-        "categorie": "Paramecia",
+        "categorie": "Zoan Mythique",
         "couleurs": [
-            "Rouge",
-            "Jaune"
+            "Bleu clair",
+            "Bleu foncé"
         ],
-        "Ancien détenteur": "Brook le Fredonneur",
+        "Ancien détenteur": "Kaido aux 100 Bêtes",
         "spoiler": "spoiler"
     },
     {
-        "id": 4,
-        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
-        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
-        "stock": 18,
+        "id": 8,
+        "nom": "Soru Soru no mi / Fruit des Âmes",
+        "description": "Le Soru Soru no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur d'interagir avec les âmes et les durées de vie des personnes, de les rendre physiques et de les intégrer dans des animaux ou objets.",
+        "stock": 6,
         "prix": 10000000000,
         "devise": "BERRY",
         "images": [
-            "Yomi_Yomi_no_Mi_Fruit.webp",
-            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+            "Soru_Soru.webp",
+            "Soru_Soru_no_Mi_Anime_Infobox.webp"
         ],
         "categorie": "Paramecia",
         "couleurs": [
-            "Rouge",
-            "Jaune"
+            "Rose",
+            "Violet"
         ],
-        "Ancien détenteur": "Brook le Fredonneur",
+        "Ancien détenteur": "Caramel, Big Mom alias Charlotte Linlin",
         "spoiler": "spoiler"
     },
     {
-        "id": 4,
-        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
-        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
-        "stock": 18,
-        "prix": 10000000000,
+        "id": 9,
+        "nom": "Ito Ito no mi / Fruit des fils",
+        "description": "Le Ito Ito no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de créer et de manipuler des fils invisibles afin de les utiliser pour contrôler ses adversaires tels des marionnettes, découper toute chose, des personnes ou des bâtiments et même s'en servir pour voler dans le ciel en accrochant ces fils aux nuages, transformant ainsi son utilisateur en Homme-Fils.",
+        "stock": 78,
+        "prix": 500000000,
         "devise": "BERRY",
         "images": [
-            "Yomi_Yomi_no_Mi_Fruit.webp",
-            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+            "Ito_Ito_no_Mi_Fruit.webp",
+            "Ito_Ito_no_Mi_Anime_Infobox.webp"
         ],
         "categorie": "Paramecia",
-        "couleurs": [
-            "Rouge",
-            "Jaune"
-        ],
-        "Ancien détenteur": "Brook le Fredonneur",
+        "couleurs": "Blanc",
+        "Ancien détenteur": "Joker alias Donquixote Doflamingo",
         "spoiler": "spoiler"
     },
     {
-        "id": 4,
-        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
-        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
-        "stock": 18,
-        "prix": 10000000000,
+        "id": 10,
+        "nom": "Hie Hie no mi / Givro-Fruit",
+        "description": "Le Hie Hie no mi est un Fruit du Démon de type Logia qui permet à son utilisateur de créer, contrôler et de devenir de la glace, le transformant en Homme-Congelant.",
+        "stock": 69,
+        "prix": 100000000000,
         "devise": "BERRY",
         "images": [
-            "Yomi_Yomi_no_Mi_Fruit.webp",
-            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+            "Hie_Hie_no_Mi_Fruit.webp",
+            "Hie_Hie_no_Mi_Anime_Infobox.webp"
         ],
-        "categorie": "Paramecia",
-        "couleurs": [
-            "Rouge",
-            "Jaune"
-        ],
-        "Ancien détenteur": "Brook le Fredonneur",
+        "categorie": "Logia",
+        "couleurs": "Bleu clair",
+        "Ancien détenteur": "Amiral Aokiji alias Kuzan",
         "spoiler": "spoiler"
     },
     {
-        "id": 4,
-        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
-        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
-        "stock": 18,
-        "prix": 10000000000,
+        "id": 11,
+        "nom": "Hana Hana no mi / Fruit des éclosions",
+        "description": "Le Hana Hana no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de copier des parties de son corps pour les faire éclore comme des fleurs. L'utlisatrice peut faire apparaître ces parties du corps n'importe où dans son champ de vision et au-delà.",
+        "stock": 4,
+        "prix": 1000000000000,
         "devise": "BERRY",
         "images": [
-            "Yomi_Yomi_no_Mi_Fruit.webp",
-            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+            "Hana_Hana_no_Mi_Fruit.webp",
+            "Hana_Hana_no_Mi_Anime_Infobox.webp"
         ],
         "categorie": "Paramecia",
         "couleurs": [
-            "Rouge",
+            "Rose",
             "Jaune"
         ],
-        "Ancien détenteur": "Brook le Fredonneur",
+        "Ancien détenteur": "Nico Robin",
         "spoiler": "spoiler"
     },
     {
-        "id": 4,
-        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
-        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
-        "stock": 18,
-        "prix": 10000000000,
+        "id": 12,
+        "nom": "Doku Doku no mi / Fruit du Venin",
+        "description": "Le Doku Doku no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de produire et de contrôler différents types de poisons, et donne la faculté à son utilisateur d'être immunisé contre ceux-ci, le transformant ainsi en Homme-Poison.",
+        "stock": 23,
+        "prix": 1200000000,
         "devise": "BERRY",
         "images": [
-            "Yomi_Yomi_no_Mi_Fruit.webp",
-            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+            "Doku_Doku_no_Mi_Fruit.webp",
+            "Doku_Doku_no_Mi_Anime_Infobox.webp"
         ],
         "categorie": "Paramecia",
         "couleurs": [
-            "Rouge",
-            "Jaune"
+            "Violet",
+            "Vert",
+            "Rose"
         ],
-        "Ancien détenteur": "Brook le Fredonneur",
+        "Ancien détenteur": "Magellan",
         "spoiler": "spoiler"
     },
     {
-        "id": 4,
-        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
-        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
-        "stock": 18,
-        "prix": 10000000000,
+        "id": 13,
+        "nom": "Mane Mane no mi / Travesti-Fruit",
+        "description": "Le Mane Mane no mi est un Fruit du Démon de type Paramecia permettant à l'utilisateur de se transformer en n'importe quelle personne qu'elle touche avec ses mains, faisant de lui un Homme Imitateur. Ceci inclut la force, la vitesse et la flexibilité de la victime.",
+        "stock": 10,
+        "prix": 100000000000,
         "devise": "BERRY",
         "images": [
-            "Yomi_Yomi_no_Mi_Fruit.webp",
-            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+            "Mane_Mane_no_Mi_Fruit.webp",
+            "Mane_Mane_no_Mi_Anime_Infobox.webp"
         ],
         "categorie": "Paramecia",
         "couleurs": [
-            "Rouge",
-            "Jaune"
+            "Orange clair",
+            "Beige"
         ],
-        "Ancien détenteur": "Brook le Fredonneur",
+        "Ancien détenteur": "Bentham alias Mr. 2 Bon Clay",
         "spoiler": "spoiler"
     },
     {
-        "id": 4,
-        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
-        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
-        "stock": 18,
-        "prix": 10000000000,
+        "id": 14,
+        "nom": "Suna Suna no mi / Fruit des Sables",
+        "description": "Le Suna Suna no mi est un Fruit du Démon de type Logia mangé par Crocodile, qui lui permet de produire à volonté, de contrôler et de se transformer en sable, transformant l'utilisateur en Homme-Sable.",
+        "stock": 13,
+        "prix": 60000000,
         "devise": "BERRY",
         "images": [
-            "Yomi_Yomi_no_Mi_Fruit.webp",
-            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+            "Suna_Suna_no_Mi_Fruit.webp",
+            "Suna_Suna_no_Mi_Anime_Infobox.webp"
         ],
-        "categorie": "Paramecia",
+        "categorie": "Logia",
         "couleurs": [
-            "Rouge",
-            "Jaune"
+            "Vert clair",
+            "Vert foncé"
         ],
-        "Ancien détenteur": "Brook le Fredonneur",
+        "Ancien détenteur": "Crocodile",
         "spoiler": "spoiler"
     },
     {
-        "id": 4,
-        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
-        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
-        "stock": 18,
-        "prix": 10000000000,
+        "id": 15,
+        "nom": "Mero Mero no mi / Fruit de la passion",
+        "description": "Le Mero Mero no mi est un Fruit du Démon de type Paramecia qui permet à celui qui l'a mangé d'émettre un rayon qui transforme en pierre tous les gens ressentant de l'amour (perverti) envers le possesseur du fruit du démon et qui rend la quasi-totalité des personnes qui regardent l'utilisateur amoureux de ce dernier.",
+        "stock": 47,
+        "prix": 1000000,
         "devise": "BERRY",
         "images": [
-            "Yomi_Yomi_no_Mi_Fruit.webp",
-            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+            "Mera_Mera_no_Mi_Fruit_Anime.webp",
+            "Mera_Mera_no_Mi_Anime_Infobox.webp"
         ],
         "categorie": "Paramecia",
         "couleurs": [
             "Rouge",
-            "Jaune"
+            "Violet",
+            "Rose"
         ],
-        "Ancien détenteur": "Brook le Fredonneur",
+        "Ancien détenteur": "Boa Hancock",
         "spoiler": "spoiler"
     },
     {
-        "id": 4,
-        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
-        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
-        "stock": 18,
-        "prix": 10000000000,
+        "id": 16,
+        "nom": "Ope Ope no mi / Fruit du Bistouri",
+        "description": "Le Ope Ope no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de créer une sphère d'aura bleue claire translucide, où l'utilisateur peut contrôler comme bon lui semble le placement et l'orientation des objets et des êtres vivants à l'intérieur.",
+        "stock": 3,
+        "prix": 5000000000,
         "devise": "BERRY",
         "images": [
-            "Yomi_Yomi_no_Mi_Fruit.webp",
-            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+            "Ope_Ope_no_Mi_Fruit_Anime.webp",
+            "Ope_Ope_no_Mi_Anime_Infobox.webp"
         ],
         "categorie": "Paramecia",
-        "couleurs": [
-            "Rouge",
-            "Jaune"
-        ],
-        "Ancien détenteur": "Brook le Fredonneur",
+        "couleurs": "Rouge",
+         
+        "Ancien détenteur": "Trafalgar D. Water Law",
         "spoiler": "spoiler"
     },
     {
-        "id": 4,
-        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
-        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
-        "stock": 18,
-        "prix": 10000000000,
+        "id": 17,
+        "nom": "Nagi Nagi no mi / Fruit de la Sourdine",
+        "description": "Le Nagi Nagi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de créer un champ insonorisé et de supprimer tout type de son, faisant de lui un Homme Insonorisant.",
+        "stock": 25,
+        "prix": 3000000,
         "devise": "BERRY",
         "images": [
-            "Yomi_Yomi_no_Mi_Fruit.webp",
-            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+            "Nagi_Nagi_no_Mi_Fruit.webp",
+            "Nagi_Nagi_no_Mi_Anime_Infobox.webp"
         ],
         "categorie": "Paramecia",
-        "couleurs": [
-            "Rouge",
-            "Jaune"
-        ],
-        "Ancien détenteur": "Brook le Fredonneur",
+        "couleurs": "Violet",
+        "Ancien détenteur": "Corazón alias Donquixote Rosinante",
         "spoiler": "spoiler"
     },
     {
-        "id": 4,
-        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
-        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
-        "stock": 18,
-        "prix": 10000000000,
+        "id": 18,
+        "nom": "Pika Pika no mi / Fruit du Flash",
+        "description": "Le Pika Pika no mi est un Fruit du Démon de type Logia qui permet à l'utilisateur de créer, contrôler et de devenir de la lumière, faisant de l'utilisateur un Homme-Lumière .",
+        "stock": 2,
+        "prix": 6000000000000,
         "devise": "BERRY",
         "images": [
-            "Yomi_Yomi_no_Mi_Fruit.webp",
-            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+            "Fruta26.webp",
+            "Pika_Pika_no_Mi_Anime_Infobox.webp"
         ],
-        "categorie": "Paramecia",
-        "couleurs": [
-            "Rouge",
-            "Jaune"
-        ],
-        "Ancien détenteur": "Brook le Fredonneur",
+        "categorie": "Logia",
+        "couleurs": "Jaune",
+        "Ancien détenteur": "Amiral Kizaru alias Borsalino",
         "spoiler": "spoiler"
     },
     {
-        "id": 4,
-        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
-        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
-        "stock": 18,
-        "prix": 10000000000,
+        "id": 19,
+        "nom": "Goro Goro no mi / Fulguro-Fruit",
+        "description": "Le Goro Goro no mi est un Fruit du Démon de type Logia qui permet à son utilisateur de se transformer, de produire à volonté ainsi que contrôler l'électricité, faisant du mangeur un Homme-Foudre.",
+        "stock": 8,
+        "prix": 700000000,
         "devise": "BERRY",
         "images": [
-            "Yomi_Yomi_no_Mi_Fruit.webp",
-            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+            "Goro_Goro_no_Mi_Fruit.webp",
+            "Goro_Goro_no_Mi_Anime_Infobox.webp"
         ],
-        "categorie": "Paramecia",
-        "couleurs": [
-            "Rouge",
-            "Jaune"
-        ],
-        "Ancien détenteur": "Brook le Fredonneur",
+        "categorie": "Logia",
+        "couleurs": "Jaune",
+        "Ancien détenteur": "Dieu Ener",
         "spoiler": "spoiler"
     },
     {
-        "id": 4,
-        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
-        "description": "Le Ymoi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un.",
-        "stock": 18,
-        "prix": 10000000000,
+        "id": 20,
+        "nom": "Moku Moku no mi / Fruit Fumigène",
+        "description": "Le Moku Moku no mi est un Fruit du Démon de type Logia qui transforme celui qui le mange en Homme-Fumée. Il permet à son utilisateur de maîtriser, de produire à volonté et de se transformer en fumée.",
+        "stock": 56,
+        "prix": 9000000,
         "devise": "BERRY",
         "images": [
-            "Yomi_Yomi_no_Mi_Fruit.webp",
-            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+            "Moku_Moku_no_Mi_Fruit.webp",
+            "Moku_Moku_no_Mi_Anime_Infobox.webp"
         ],
-        "categorie": "Paramecia",
+        "categorie": "Logia",
         "couleurs": [
-            "Rouge",
-            "Jaune"
+            "Blanc",
+            "Gris"
         ],
-        "Ancien détenteur": "Brook le Fredonneur",
+        "Ancien détenteur": "Le chasseur Blanc alias Smoker",
         "spoiler": "spoiler"
     }
 ]
