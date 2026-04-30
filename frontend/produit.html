@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../frontend/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <img src="../frontend/assets/images/chapeau.png" alt="Logo" class="logo-image">
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Produits</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <div class="nav-icon">
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                        viewBox="0 0 24 24">
+
+                        <path
+                            d="M18 10c0-4.41-3.59-8-8-8s-8 3.59-8 8 3.59 8 8 8c1.85 0 3.54-.63 4.9-1.69l5.1 5.1L21.41 20l-5.1-5.1A8 8 0 0 0 18 10M4 10c0-3.31 2.69-6 6-6s6 2.69 6 6-2.69 6-6 6-6-2.69-6-6">
+                        </path>
+                    </svg></a>
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                        viewBox="0 0 24 24">
+
+                        <path
+                            d="M21 4H6.17l-.18-1.15A1 1 0 0 0 5 2H2v2h2.14l1.87 12.15A1 1 0 0 0 7 17h12v-2H7.86l-.31-2H19c.45 0 .84-.3.96-.73l2-7A1 1 0 0 0 21 3.99Zm-2.75 7H7.24l-.77-5h13.2l-1.43 5ZM8 18a2 2 0 1 0 0 4 2 2 0 1 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 1 0 0-4">
+                        </path>
+                    </svg></a>
+
+            </div>
+        </nav>
+    </header>
+
+    <section class="main-home">
+        <div class="main-text">
+            <h5>Nos Produits</h5>
+            <h2>Découvrez notre gamme de produits</h2>
+            <p>Découvrez notre gamme de produits, soigneusement sélectionnés pour répondre à tous vos besoins. Que vous
+                recherchiez des articles de qualité, des nouveautés ou des offres spéciales, nous avons tout ce qu'il
+                vous faut pour satisfaire vos envies.</p>
+            <a href="#" class="main-button">Voir les produits</a>
+        </div>
+
+        <div class="down-arrow">
+            <a href="#trending" class="down"><i class="fa-solid fa-arrow-down"></i></a>
+        </div>
+
+    </section>
+
+    <section class="trending-product" id="trending">
+        <div class="center-text">
+            <h2>Nos <span>Produits</span></h2>
+        </div>
+
+
+        <div class="products" id="products-container">
+        </div>
+    </section>
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
