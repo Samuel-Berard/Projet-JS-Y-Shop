@@ -1,21 +1,13 @@
 const express = require('express');
 const router = express.Router();
-const fs = require('fs');
-const path = require('path');
+const productController = require('../controllers/productController');
 
 
-router.get('/', (req, res) => {
+router.get('/', productController.recupererTousProduits);
 
-    const cheminFichier = path.join(__dirname, '../data/produits.json');
+router.get('/:id', productController.recupererProduitParId);
 
+router.put('/:id/stock', productController.mettreAJourStock);
 
-    const donnees = fs.readFileSync(cheminFichier, 'utf-8');
-
-
-    const produits = JSON.parse(donnees);
-
-
-    res.json(produits);
-});
 
 module.exports = router;
