@@ -10,8 +10,8 @@ const app = express();
 const PORT = 3000;
 
 
-app.use(cors()); 
-app.use(express.json()); 
+app.use(cors());
+app.use(express.json());
 
 // on branche la route des produits sur /api/produits
 app.use('/api/produits', productRoutes);
@@ -22,6 +22,11 @@ app.use('/api/panier', cartRoutes);
 // Servir les fichiers statiques du frontend
 app.use(express.static(path.join(__dirname, '../frontend')));
 
+
+// Route 404 
+app.use((req, res) => {
+    res.status(404).sendFile(path.join(__dirname, '../frontend/404.html'));
+});
 
 app.listen(PORT, () => {
     console.log(`Le serveur tourne sur http://localhost:${PORT}`);
