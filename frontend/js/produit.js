@@ -6,8 +6,8 @@ const produitId = params.get('id');
 
 const container = document.querySelector('#products-container');
 
-const listeProduits = [];
-const filtres = [];
+let listeProduits = [];
+let filtres = [];
 
 if (produitId) {
     chargerDetail(produitId);
@@ -388,7 +388,7 @@ function afficherPrix(prix) {
 }
 
 function notif(msg) {
-    const el = document.querySelector('#notification');
+    let el = document.querySelector('#notification');
     if (!el) {
         el = document.createElement('div');
         el.id = 'notification';

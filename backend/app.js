@@ -2,8 +2,8 @@
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
-const productRoutes = require('./routes/productRoutes');
-const cartRoutes = require('./routes/cartRoutes');
+const produitsRouter = require('./router/produits');
+const panierRouter = require('./router/panier');
 
 const app = express();
 const PORT = 3000;
@@ -11,9 +11,12 @@ const PORT = 3000;
 app.use(cors());
 app.use(express.json());
 
-app.use('/api/produits', productRoutes);
+app.use('/api/produits', produitsRouter);
 
-app.use('/api/panier', cartRoutes);
+const contactRouter = require('./router/contact');
+app.use('/api/contact', contactRouter);
+
+app.use('/api/panier', panierRouter);
 
 app.use(express.static(path.join(__dirname, '../frontend')));
 
