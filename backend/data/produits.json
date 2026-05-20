@@ -59,7 +59,7 @@
         "devise": "BERRY",
         "images": [
             "Yomi_Yomi_no_Mi_Fruit.webp",
-            "Yomi_Yomi_no_Mi_Anime_Infobox.webp"
+            "Yomi_Yomi_no_Mi_Anime_infobox.webp"
         ],
         "categorie": "Paramecia",
         "couleurs": [
@@ -77,7 +77,7 @@
         "prix": 50000000000,
         "devise": "BERRY",
         "images": [
-            "Yami_Yami_no_Mi_Fruit.webp",
+            "Yami_Yami_no_Mi_Fruit_Anime.webp",
             "Yami_Yami_no_Mi_Anime_Infobox.webp"
         ],
         "categorie": "Logia",
@@ -113,7 +113,7 @@
         "devise": "BERRY",
         "images": [
             "Uo_Uo_no_Mi3Fle_Seiryu_Fruit.webp",
-            "Uo_Uo_no_Mi_Anime_Infobox.webp"
+            "Uo_Uo_no_Mi3Fle_Seiryu_Forme_Animale_Anime_Infobox.webp"
         ],
         "categorie": "Zoan Mythique",
         "couleurs": [
@@ -150,7 +150,7 @@
         "prix": 500000000,
         "devise": "BERRY",
         "images": [
-            "Ito_Ito_no_Mi_Fruit.webp",
+            "Ito_Ito_no_Mi_Fruit_Anime.webp",
             "Ito_Ito_no_Mi_Anime_Infobox.webp"
         ],
         "categorie": "Paramecia",
@@ -166,7 +166,7 @@
         "prix": 100000000000,
         "devise": "BERRY",
         "images": [
-            "Hie_Hie_no_Mi_Fruit.webp",
+            "Hie_Hie_no_Mi.webp",
             "Hie_Hie_no_Mi_Anime_Infobox.webp"
         ],
         "categorie": "Logia",
@@ -201,7 +201,7 @@
         "prix": 1200000000,
         "devise": "BERRY",
         "images": [
-            "Doku_Doku_no_Mi_Fruit.webp",
+            "Doku_Doku_no_Mi.webp",
             "Doku_Doku_no_Mi_Anime_Infobox.webp"
         ],
         "categorie": "Paramecia",
@@ -295,7 +295,7 @@
         "prix": 3000000,
         "devise": "BERRY",
         "images": [
-            "Nagi_Nagi_no_Mi_Fruit.webp",
+            "Nagi_Nagi_no_Mi.webp",
             "Nagi_Nagi_no_Mi_Anime_Infobox.webp"
         ],
         "categorie": "Paramecia",
