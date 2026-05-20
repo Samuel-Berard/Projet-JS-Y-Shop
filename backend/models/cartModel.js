@@ -3,25 +3,18 @@ const path = require('path');
 
 const cheminFichier = path.join(__dirname, '../data/produits.json');
 
-
-
 function getTousProduits() {
     const donnees = fs.readFileSync(cheminFichier, 'utf-8');
     return JSON.parse(donnees);
 }
 
-
-
 function sauvegarderProduits(produits) {
     fs.writeFileSync(cheminFichier, JSON.stringify(produits, null, 4), 'utf-8');
 }
 
-
-
 function validerCommande(panier) {
     const produits = getTousProduits();
     const erreurs = [];
-
 
     panier.forEach(function (article) {
         const produit = produits.find(function (p) {
@@ -39,7 +32,6 @@ function validerCommande(panier) {
         return { succes: false, erreurs: erreurs };
     }
 
-
     panier.forEach(function (article) {
         const produit = produits.find(function (p) {
             return p.id == article.id;
@@ -51,7 +43,6 @@ function validerCommande(panier) {
 
     return { succes: true, message: 'Commande validee' };
 }
-
 
 module.exports = {
     validerCommande

@@ -1,7 +1,5 @@
 const cartModel = require('../models/cartModel');
 
-
-
 function passerCommande(req, res) {
     const { panier } = req.body;
 
@@ -17,7 +15,6 @@ function passerCommande(req, res) {
         res.status(400).json(resultat);
     }
 }
-
 
 module.exports = {
     passerCommande

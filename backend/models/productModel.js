@@ -1,16 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
-
 const cheminFichier = path.join(__dirname, '../data/produits.json');
-
 
 function getTousProduits() {
     const donnees = fs.readFileSync(cheminFichier, 'utf-8');
     return JSON.parse(donnees);
 }
-
-
 
 function getProduitParId(id) {
     const produits = getTousProduits();
@@ -18,8 +14,6 @@ function getProduitParId(id) {
         return p.id == id;
     });
 }
-
-
 
 function mettreAJourStock(id, nouvelleQuantite) {
     const produits = getTousProduits();
@@ -37,7 +31,6 @@ function mettreAJourStock(id, nouvelleQuantite) {
 
     return produits[index];
 }
-
 
 module.exports = {
     getTousProduits,

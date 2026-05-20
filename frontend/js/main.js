@@ -1,4 +1,4 @@
-var header = document.querySelector('header');
+const header = document.querySelector('header');
 
 if (header) {
     window.addEventListener("scroll", function () {
@@ -6,27 +6,26 @@ if (header) {
     });
 }
 
-var menu = document.querySelector('#menu-icon');
+const menu = document.querySelector('#menu-icon');
 
-// Met a jour les compteurs panier et favoris dans la navbar
 function majCompteurs() {
-    var panier = JSON.parse(localStorage.getItem('panier') || '[]');
-    var total = 0;
+    let panier = JSON.parse(localStorage.getItem('panier') || '[]');
+    let total = 0;
     panier.forEach(function (item) {
         total = total + item.quantite;
     });
-    var cp = document.querySelector('#compteur-panier');
+    const cp = document.querySelector('#compteur-panier');
     if (cp) {
         cp.textContent = total;
         cp.style.display = total > 0 ? 'inline-flex' : 'none';
     }
 
-    var favoris = JSON.parse(localStorage.getItem('favoris') || '[]');
-    var cf = document.querySelector('#compteur-favoris');
+    let favoris = JSON.parse(localStorage.getItem('favoris') || '[]');
+    const cf = document.querySelector('#compteur-favoris');
     if (cf) {
         cf.textContent = favoris.length;
         cf.style.display = favoris.length > 0 ? 'inline-flex' : 'none';
     }
 }
 
-majCompteurs();
+majCompteurs();

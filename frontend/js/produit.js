@@ -1,17 +1,14 @@
-// URL de l'API
-var API_URL = 'http://localhost:3000/api/produits';
 
-// Récupère l'id dans l'URL si on est sur une page détail
-var params = new URLSearchParams(window.location.search);
-var produitId = params.get('id');
+const API_URL = 'http://localhost:3000/api/produits';
 
-var container = document.querySelector('#products-container');
+const params = new URLSearchParams(window.location.search);
+const produitId = params.get('id');
 
-// Listes de produits pour les filtres
-var listeProduits = [];
-var filtres = [];
+const container = document.querySelector('#products-container');
 
-// Lancement selon la page
+const listeProduits = [];
+const filtres = [];
+
 if (produitId) {
     chargerDetail(produitId);
 } else {
@@ -21,8 +18,6 @@ if (produitId) {
 
 majCompteurs();
 
-
-// Charge et affiche tous les produits
 function chargerProduits() {
     fetch(API_URL)
         .then(function (res) {
@@ -40,8 +35,6 @@ function chargerProduits() {
         });
 }
 
-
-// Affiche une liste de produits dans le container
 function afficher(liste) {
     container.innerHTML = '';
 
@@ -50,20 +43,18 @@ function afficher(liste) {
         return;
     }
 
-    for (var i = 0; i < liste.length; i++) {
+    for (let i = 0; i < liste.length; i++) {
         container.appendChild(creerCarte(liste[i]));
     }
 }
 
-
-// Crée une carte produit pour le catalogue
 function creerCarte(produit) {
-    var carte = document.createElement('div');
+    const carte = document.createElement('div');
     carte.classList.add('row');
     carte.style.cursor = 'pointer';
 
-    var enFavori = estFavori(produit.id);
-    var iconeCoeur = enFavori ? 'fa-solid fa-heart favori-actif' : 'fa-regular fa-heart';
+    const enFavori = estFavori(produit.id);
+    const iconeCoeur = enFavori ? 'fa-solid fa-heart favori-actif' : 'fa-regular fa-heart';
 
     carte.innerHTML = `
         <div class="product-images">
@@ -82,18 +73,16 @@ function creerCarte(produit) {
         </div>
     `;
 
-    // Clic sur la carte -> page détail
     carte.addEventListener('click', function (e) {
         if (e.target.closest('.heart-icon')) return;
         window.location.href = '/produit.html?id=' + produit.id;
     });
 
-    // Clic sur le coeur -> favori
-    var coeur = carte.querySelector('.heart-icon');
+    const coeur = carte.querySelector('.heart-icon');
     coeur.addEventListener('click', function (e) {
         e.stopPropagation();
         toggleFavori(produit);
-        var ic = coeur.querySelector('i');
+        const ic = coeur.querySelector('i');
         ic.className = estFavori(produit.id) ? 'fa-solid fa-heart favori-actif' : 'fa-regular fa-heart';
         majCompteurs();
     });
@@ -101,16 +90,14 @@ function creerCarte(produit) {
     return carte;
 }
 
-
-// Init les boutons filtres et le select de tri
 function initFiltres() {
-    var boutons = document.querySelectorAll('.btn-filtre');
+    const boutons = document.querySelectorAll('.btn-filtre');
     boutons.forEach(function (btn) {
         btn.addEventListener('click', function () {
             boutons.forEach(function (b) { b.classList.remove('active'); });
             btn.classList.add('active');
 
-            var cat = btn.dataset.categorie;
+            const cat = btn.dataset.categorie;
             if (cat === 'tous') {
                 filtres = listeProduits;
             } else {
@@ -120,17 +107,15 @@ function initFiltres() {
         });
     });
 
-    var select = document.querySelector('#select-tri');
+    const select = document.querySelector('#select-tri');
     if (select) {
         select.addEventListener('change', function () { trier(); });
     }
 }
 
-
-// Trie les produits filtrés et les réaffiche
 function trier() {
-    var select = document.querySelector('#select-tri');
-    var liste = filtres.slice();
+    const select = document.querySelector('#select-tri');
+    const liste = filtres.slice();
 
     if (select) {
         if (select.value === 'prix-asc') {
@@ -145,13 +130,11 @@ function trier() {
     afficher(liste);
 }
 
-
-// Charge le détail d'un produit
 function chargerDetail(id) {
-    var mainHome = document.querySelector('.main-home');
+    const mainHome = document.querySelector('.main-home');
     if (mainHome) mainHome.style.display = 'none';
 
-    var titre = document.querySelector('.trending-product .center-text h2');
+    const titre = document.querySelector('.trending-product .center-text h2');
     if (titre) titre.innerHTML = 'Détail du <span>Produit</span>';
 
     fetch(API_URL + '/' + id)
@@ -170,27 +153,23 @@ function chargerDetail(id) {
         });
 }
 
-
-// Crée la vue détaillée d'un produit
 function creerCarteDetail(produit) {
-    var carte = document.createElement('div');
+    const carte = document.createElement('div');
     carte.classList.add('produit-detail');
 
-    // Description tronquée à 150 caractères
-    var descCourte = produit.description;
-    var tronquee = false;
+    const descCourte = produit.description;
+    let tronquee = false;
     if (produit.description.length > 150) {
         descCourte = produit.description.substring(0, 150) + '...';
         tronquee = true;
     }
 
-    // Couleurs (string ou tableau)
-    var couleurs = Array.isArray(produit.couleurs) ? produit.couleurs : [produit.couleurs];
-    var htmlCouleurs = couleurs.map(function (c) {
+    const couleurs = Array.isArray(produit.couleurs) ? produit.couleurs : [produit.couleurs];
+    let htmlCouleurs = couleurs.map(function (c) {
         return '<span class="badge-couleur">' + c + '</span>';
     }).join('');
 
-    var iconeCoeur = estFavori(produit.id) ? 'fa-solid fa-heart favori-actif' : 'fa-regular fa-heart';
+    const iconeCoeur = estFavori(produit.id) ? 'fa-solid fa-heart favori-actif' : 'fa-regular fa-heart';
 
     carte.innerHTML = `
         <div class="detail-images">
@@ -255,11 +234,10 @@ function creerCarteDetail(produit) {
         </div>
     `;
 
-    // Bouton voir plus / voir moins
     if (tronquee) {
-        var btnVoir = carte.querySelector('#btn-voir-plus');
-        var texte = carte.querySelector('#desc-texte');
-        var ouvert = false;
+        const btnVoir = carte.querySelector('#btn-voir-plus');
+        const texte = carte.querySelector('#desc-texte');
+        let ouvert = false;
         btnVoir.addEventListener('click', function () {
             ouvert = !ouvert;
             texte.textContent = ouvert ? produit.description : descCourte;
@@ -267,8 +245,7 @@ function creerCarteDetail(produit) {
         });
     }
 
-    // + / - quantité
-    var inputQte = carte.querySelector('#input-quantite');
+    const inputQte = carte.querySelector('#input-quantite');
     carte.querySelector('#btn-moins').addEventListener('click', function () {
         if (parseInt(inputQte.value) > 1) inputQte.value = parseInt(inputQte.value) - 1;
     });
@@ -276,13 +253,12 @@ function creerCarteDetail(produit) {
         if (parseInt(inputQte.value) < produit.stock) inputQte.value = parseInt(inputQte.value) + 1;
     });
 
-    // Ajouter au panier
     carte.querySelector('#btn-ajouter-panier').addEventListener('click', function () {
-        var qte = parseInt(inputQte.value);
-        var panier = lirePanier();
-        var trouve = false;
+        const qte = parseInt(inputQte.value);
+        let panier = lirePanier();
+        let trouve = false;
 
-        for (var i = 0; i < panier.length; i++) {
+        for (let i = 0; i < panier.length; i++) {
             if (panier[i].id === produit.id) {
                 panier[i].quantite += qte;
                 trouve = true;
@@ -299,11 +275,10 @@ function creerCarteDetail(produit) {
         majCompteurs();
     });
 
-    // Bouton favori
-    var btnFav = carte.querySelector('#btn-favori-detail');
+    const btnFav = carte.querySelector('#btn-favori-detail');
     btnFav.addEventListener('click', function () {
         toggleFavori(produit);
-        var ic = btnFav.querySelector('i');
+        const ic = btnFav.querySelector('i');
         if (estFavori(produit.id)) {
             ic.className = 'fa-solid fa-heart favori-actif';
             notif('Ajouté aux favoris.');
@@ -314,8 +289,7 @@ function creerCarteDetail(produit) {
         majCompteurs();
     });
 
-    // Mini images du carrousel
-    var minis = carte.querySelectorAll('.mini-img');
+    const minis = carte.querySelectorAll('.mini-img');
     minis.forEach(function (mini, i) {
         mini.addEventListener('click', function () {
             allerA(i);
@@ -328,14 +302,12 @@ function creerCarteDetail(produit) {
     return carte;
 }
 
-
-// Init le carrousel d'images
-var posCarrousel = 0;
+let posCarrousel = 0;
 
 function initCarrousel(images) {
-    var track = document.querySelector('#carrousel-track');
-    var btnG = document.querySelector('#btn-gauche');
-    var btnD = document.querySelector('#btn-droite');
+    const track = document.querySelector('#carrousel-track');
+    const btnG = document.querySelector('#btn-gauche');
+    const btnD = document.querySelector('#btn-droite');
     if (!track) return;
 
     btnD.addEventListener('click', function () {
@@ -354,63 +326,55 @@ function initCarrousel(images) {
 }
 
 function allerA(index) {
-    var track = document.querySelector('#carrousel-track');
+    const track = document.querySelector('#carrousel-track');
     if (!track) return;
     track.style.transform = 'translateX(-' + (index * track.parentElement.clientWidth) + 'px)';
     posCarrousel = index;
 }
 
 function majMinis(index) {
-    var minis = document.querySelectorAll('.mini-img');
+    const minis = document.querySelectorAll('.mini-img');
     minis.forEach(function (m, i) {
         m.classList.toggle('mini-active', i === index);
     });
 }
 
-
-// Charge des produits de la même catégorie
 function chargerSimilaires(produitActuel) {
     fetch(API_URL)
         .then(function (res) { return res.json(); })
         .then(function (data) {
-            var similaires = data.filter(function (p) {
+            const similaires = data.filter(function (p) {
                 return p.categorie === produitActuel.categorie && p.id !== produitActuel.id;
             }).slice(0, 4);
 
             if (similaires.length === 0) return;
 
-            var section = document.createElement('div');
+            const section = document.createElement('div');
             section.classList.add('similaires-section');
             section.innerHTML = '<h3>Produits similaires</h3><div class="similaires-grille" id="similaires-grille"></div>';
             container.appendChild(section);
 
-            var grille = document.querySelector('#similaires-grille');
+            const grille = document.querySelector('#similaires-grille');
             similaires.forEach(function (p) {
                 grille.appendChild(creerCarte(p));
             });
         });
 }
 
-
-// --- Panier localStorage ---
-
 function lirePanier() {
     return JSON.parse(localStorage.getItem('panier') || '[]');
 }
 
-
-// --- Favoris localStorage ---
-
 function estFavori(id) {
-    var favoris = JSON.parse(localStorage.getItem('favoris') || '[]');
-    for (var i = 0; i < favoris.length; i++) {
+    let favoris = JSON.parse(localStorage.getItem('favoris') || '[]');
+    for (let i = 0; i < favoris.length; i++) {
         if (favoris[i].id === id) return true;
     }
     return false;
 }
 
 function toggleFavori(produit) {
-    var favoris = JSON.parse(localStorage.getItem('favoris') || '[]');
+    let favoris = JSON.parse(localStorage.getItem('favoris') || '[]');
     if (estFavori(produit.id)) {
         favoris = favoris.filter(function (f) { return f.id !== produit.id; });
     } else {
@@ -419,16 +383,12 @@ function toggleFavori(produit) {
     localStorage.setItem('favoris', JSON.stringify(favoris));
 }
 
-
-// --- Utilitaires ---
-
 function afficherPrix(prix) {
     return prix.toLocaleString('fr-FR');
 }
 
-// Notification temporaire en bas d'écran
 function notif(msg) {
-    var el = document.querySelector('#notification');
+    const el = document.querySelector('#notification');
     if (!el) {
         el = document.createElement('div');
         el.id = 'notification';

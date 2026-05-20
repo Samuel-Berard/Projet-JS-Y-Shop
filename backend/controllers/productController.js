@@ -1,13 +1,9 @@
 const productModel = require('../models/productModel');
 
-
-
 function recupererTousProduits(req, res) {
     const produits = productModel.getTousProduits();
     res.json(produits);
 }
-
-
 
 function recupererProduitParId(req, res) {
     const id = req.params.id;
@@ -19,7 +15,6 @@ function recupererProduitParId(req, res) {
         res.status(404).json({ message: 'Produit non trouve' });
     }
 }
-
 
 function mettreAJourStock(req, res) {
     const id = req.params.id;
@@ -37,7 +32,6 @@ function mettreAJourStock(req, res) {
         res.status(404).json({ message: 'Produit non trouve' });
     }
 }
-
 
 module.exports = {
     recupererTousProduits,
