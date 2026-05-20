@@ -42,9 +42,9 @@ function sauvegarderPanier(panier) {
  */
 function afficherPanier() {
     var panier = lirePanier();
-    var liste = document.getElementById('panier-liste');
-    var recap = document.getElementById('panier-recap');
-    var panierVide = document.getElementById('panier-vide');
+    var liste = document.querySelector('#panier-liste');
+    var recap = document.querySelector('#panier-recap');
+    var panierVide = document.querySelector('#panier-vide');
 
     liste.innerHTML = '';
 
@@ -68,7 +68,7 @@ function afficherPanier() {
     calculerEtAfficherTotal(panier);
 
     // Bouton vider le panier
-    var btnVider = document.getElementById('btn-vider-panier');
+    var btnVider = document.querySelector('#btn-vider-panier');
     btnVider.onclick = function () {
         if (confirm('Êtes-vous sûr de vouloir vider le panier ?')) {
             viderPanier();
@@ -76,7 +76,7 @@ function afficherPanier() {
     };
 
     // Bouton commander
-    var btnCommander = document.getElementById('btn-commander');
+    var btnCommander = document.querySelector('#btn-commander');
     btnCommander.onclick = function () {
         passerCommande();
     };
@@ -193,7 +193,7 @@ function calculerEtAfficherTotal(panier) {
 
     // On affiche avec la devise du premier article (tous sont en BERRY)
     var devise = panier.length > 0 ? panier[0].devise : 'BERRY';
-    var totalElem = document.getElementById('panier-total-prix');
+    var totalElem = document.querySelector('#panier-total-prix');
     if (totalElem) {
         totalElem.textContent = formaterPrix(total) + ' ' + devise;
     }
@@ -233,19 +233,19 @@ function passerCommande() {
                 localStorage.removeItem('panier');
                 mettreAJourCompteurPanier();
 
-                document.getElementById('panier-liste').style.display = 'none';
-                document.getElementById('panier-recap').style.display = 'none';
-                document.getElementById('panier-vide').style.display = 'none';
-                document.getElementById('panier-confirmation').style.display = 'block';
+                document.querySelector('#panier-liste').style.display = 'none';
+                document.querySelector('#panier-recap').style.display = 'none';
+                document.querySelector('#panier-vide').style.display = 'none';
+                document.querySelector('#panier-confirmation').style.display = 'block';
             } else {
                 // Erreur côté serveur (stock insuffisant, etc.)
                 var msg = resultat.message || (resultat.erreurs ? resultat.erreurs.join('\n') : 'Erreur inconnue');
-                alert('❌ Impossible de passer la commande :\n' + msg);
+                alert('Impossible de passer la commande :\n' + msg);
             }
         })
         .catch(function (erreur) {
             console.error('Erreur commande:', erreur);
-            alert('❌ Erreur de connexion au serveur. Vérifiez que le serveur tourne.');
+            alert('Erreur de connexion au serveur. Vérifiez que le serveur tourne.');
         });
 }
 
@@ -257,7 +257,7 @@ function mettreAJourCompteurPanier() {
     var total = 0;
     panier.forEach(function (item) { total += item.quantite; });
 
-    var compteur = document.getElementById('compteur-panier');
+    var compteur = document.querySelector('#compteur-panier');
     if (compteur) {
         compteur.textContent = total;
         compteur.style.display = total > 0 ? 'inline-flex' : 'none';
@@ -270,7 +270,7 @@ function mettreAJourCompteurPanier() {
 function mettreAJourCompteurFavoris() {
     var data = localStorage.getItem('favoris');
     var favoris = data ? JSON.parse(data) : [];
-    var compteur = document.getElementById('compteur-favoris');
+    var compteur = document.querySelector('#compteur-favoris');
     if (compteur) {
         compteur.textContent = favoris.length;
         compteur.style.display = favoris.length > 0 ? 'inline-flex' : 'none';

@@ -3,7 +3,7 @@
         "id": 1,
         "nom": "Gomu Gomu no mi / Fruit du caoutchouc",
         "description": "Le Gomu Gomu no mi est un Fruit du Démon de type Paramecia qui confère à son utilisateur un corps élastique.",
-        "stock": 18,
+        "stock": 17,
         "prix": 1000000000,
         "devise": "BERRY",
         "images": [
@@ -19,7 +19,7 @@
         "id": 2,
         "nom": "Hito Hito no mi / Fruit de l'Humain",
         "description": "Le Hito Hito no mi est un Fruit du Démon de type Zoan qui permet à son utilisateur de se transformer en hybride humain ou en humain à part entière.",
-        "stock": 45,
+        "stock": 44,
         "prix": 500000000,
         "devise": "BERRY",
         "images": [
@@ -284,7 +284,6 @@
         ],
         "categorie": "Paramecia",
         "couleurs": "Rouge",
-         
         "Ancien détenteur": "Trafalgar D. Water Law",
         "spoiler": "spoiler"
     },

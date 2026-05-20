@@ -29,8 +29,8 @@ function lireFavoris() {
  */
 function afficherFavoris() {
     var favoris = lireFavoris();
-    var liste = document.getElementById('favoris-liste');
-    var favorisVide = document.getElementById('favoris-vide');
+    var liste = document.querySelector('#favoris-liste');
+    var favorisVide = document.querySelector('#favoris-vide');
 
     liste.innerHTML = '';
 
@@ -109,7 +109,7 @@ function retirerDesFavoris(id) {
  */
 function mettreAJourCompteurFavoris() {
     var favoris = lireFavoris();
-    var compteur = document.getElementById('compteur-favoris');
+    var compteur = document.querySelector('#compteur-favoris');
     if (compteur) {
         compteur.textContent = favoris.length;
         compteur.style.display = favoris.length > 0 ? 'inline-flex' : 'none';
@@ -125,7 +125,7 @@ function mettreAJourCompteurPanier() {
     var total = 0;
     panier.forEach(function (item) { total += item.quantite; });
 
-    var compteur = document.getElementById('compteur-panier');
+    var compteur = document.querySelector('#compteur-panier');
     if (compteur) {
         compteur.textContent = total;
         compteur.style.display = total > 0 ? 'inline-flex' : 'none';
