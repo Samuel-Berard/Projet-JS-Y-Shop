@@ -67,8 +67,8 @@ function creerCarte(produit) {
 
     carte.innerHTML = `
         <div class="product-images">
-            <img src="./assets/${produit.images[0]}" alt="${produit.nom}" class="product-img img-principale">
-            <img src="./assets/${produit.images[1]}" alt="${produit.nom}" class="product-img img-secondaire">
+            <img src="/assets/${produit.images[0]}" alt="${produit.nom}" class="product-img img-principale">
+            <img src="/assets/${produit.images[1]}" alt="${produit.nom}" class="product-img img-secondaire">
         </div>
         <div class="product-text">
             <h5>${produit.categorie}</h5>
@@ -85,7 +85,7 @@ function creerCarte(produit) {
     // Clic sur la carte -> page détail
     carte.addEventListener('click', function (e) {
         if (e.target.closest('.heart-icon')) return;
-        window.location.href = './produit.html?id=' + produit.id;
+        window.location.href = '/produit.html?id=' + produit.id;
     });
 
     // Clic sur le coeur -> favori
@@ -199,7 +199,7 @@ function creerCarteDetail(produit) {
                 <div class="carrousel-viewport">
                     <div id="carrousel-track">
                         ${produit.images.map(function(img) {
-                            return '<img src="./assets/' + img + '" alt="' + produit.nom + '" class="carrousel-img">';
+                            return '<img src="/assets/' + img + '" alt="' + produit.nom + '" class="carrousel-img">';
                         }).join('')}
                     </div>
                 </div>
@@ -207,7 +207,7 @@ function creerCarteDetail(produit) {
             </div>
             <div class="mini-images">
                 ${produit.images.map(function(img, i) {
-                    return '<img src="./assets/' + img + '" alt="' + produit.nom + '" class="mini-img" data-index="' + i + '">';
+                    return '<img src="/assets/' + img + '" alt="' + produit.nom + '" class="mini-img" data-index="' + i + '">';
                 }).join('')}
             </div>
         </div>

@@ -95,7 +95,7 @@ function creerLignePanier(article) {
 
     ligne.innerHTML = `
         <div class="panier-article-image">
-            <img src="./assets/${article.image}" alt="${article.nom}">
+            <img src="/assets/${article.image}" alt="${article.nom}">
         </div>
         <div class="panier-article-info">
             <h4 class="panier-article-nom">${article.nom}</h4>
