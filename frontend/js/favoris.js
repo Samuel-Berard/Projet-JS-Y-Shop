@@ -62,7 +62,7 @@ function creerCarteFavori(produit) {
 
     carte.innerHTML = `
         <div class="product-images">
-            <img src="./assets/${produit.image}" alt="${produit.nom}" class="product-img img-principale">
+            <img src="/assets/${produit.image}" alt="${produit.nom}" class="product-img img-principale">
         </div>
         <div class="product-text">
             <h5>${produit.categorie}</h5>
@@ -79,7 +79,7 @@ function creerCarteFavori(produit) {
     // Clic sur la carte → page détail du produit
     carte.addEventListener('click', function (e) {
         if (e.target.closest('.heart-icon')) return;
-        window.location.href = './produit.html?id=' + produit.id;
+        window.location.href = '/produit.html?id=' + produit.id;
     });
 
     // Clic sur le cœur → retirer des favoris
