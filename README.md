@@ -1,6 +1,6 @@
 # Y-Shop
 
-Bienvenue sur **Y-Shop**, votre boutique en ligne dédiée aux Fruits du Démon de l'univers One Piece. Explorez, découvrez et procurez-vous les fruits les plus rares et puissants du Grand Line !
+Bienvenue sur **Y-Shop**, boutique dédiée aux Fruits du Démon de l'univers One Piece. Explorez, découvrez et procurez-vous les fruits les plus rares et puissants de Grand Line !
 
 ## Fonctionnalités
 
