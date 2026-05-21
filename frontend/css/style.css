@@ -1863,9 +1863,49 @@ header.sticky {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
 }
-/* Contact Form Styles */
-.contact-form-container { margin-top: 40px; margin-bottom: 40px; }
-.form-group { margin-bottom: 15px; }
-.form-input { width: 100%; padding: 8px; }
-.form-textarea { width: 100%; padding: 8px; height: 150px; }
-.form-button { padding: 10px 20px; cursor: pointer; }
+
+.compare-section {
+    margin-top: 50px;
+    padding: 40px;
+    background: #f5f5f7;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.compare-section h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.compare-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.compare-card {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.compare-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 15px;
+}
+
+.compare-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #1d1d1f;
+    margin-bottom: 20px;
+}
+

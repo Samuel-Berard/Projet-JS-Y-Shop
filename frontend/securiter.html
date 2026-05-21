@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Y-Shop - Votre panier d'achat. Gérez vos Fruits du Démon et passez votre commande.">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="icon" type="image/x-icon" href="assets/logo.ico">
-    <title>Y-Shop</title>
+    <link rel="icon" type="image/x-icon" href="/frontend/assets/logo.ico">
+    <title>securiter</title>
 </head>
-
 <body>
 
     <header>
@@ -21,7 +17,7 @@
             </a>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="/index.html" class="nav-link">Accueil</a>
+                    <a href="/index.html" class="nav-link active">Accueil</a>
                 </li>
                 <li class="nav-item">
                     <a href="/produit.html" class="nav-link">Produits</a>
@@ -30,12 +26,15 @@
                     <a href="/favoris.html" class="nav-link">Favoris</a>
                 </li>
             </ul>
+
             <div class="nav-icon">
+
                 <a href="/favoris.html" class="nav-icon-link" title="Mes favoris">
                     <i class="fa-regular fa-heart"></i>
                     <span id="compteur-favoris" class="badge-compteur" style="display:none;">0</span>
                 </a>
-                <a href="/panier.html" class="nav-icon-link active" title="Mon panier">
+
+                <a href="/panier.html" class="nav-icon-link" title="Mon panier">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                         viewBox="0 0 24 24">
                         <path
@@ -48,42 +47,37 @@
         </nav>
     </header>
 
-
-    <main class="panier-main section-content">
-        <h1 class="panier-titre">Mon Panier</h1>
-
-
-        <div id="panier-liste"></div>
-
-
-        <div id="panier-recap" class="panier-recap" style="display:none;">
-            <div class="panier-total">
-                <span>Total :</span>
-                <strong id="panier-total-prix">0 BERRY</strong>
+    <main>
+        <section class="compare-section">
+            <div class="section-content">
+                <h2 class="compare-title">Attention au fruit</h2>
             </div>
-            <div class="panier-actions">
-                <button id="btn-vider-panier" class="btn-vider">Vider le panier</button>
-                <button id="btn-commander" class="btn-commander">Passer la commande</button>
+            <div class="compare-grid">
+                <div class="compare-card">
+                    <h3>Ne tentez pas de manger un fruit plusieurs fois.</h3>
+                    <p>Les fruits du démon sont dangereux et peuvent avoir des conséquences irréversibles.</p>
+                </div>
             </div>
-        </div>
-
-
-        <div id="panier-vide" class="panier-vide" style="display:none;">
-            <p>Votre panier est vide.</p>
-            <a href="/produit.html" class="btn-retour-boutique">Retourner à la boutique</a>
-        </div>
-
-
-        <div id="panier-confirmation" class="panier-confirmation">
-            <h2>Commande passée !</h2>
-            <p>Votre commande a bien été enregistrée. Votre fruit sera livré par News Coo dans les plus brefs délais !
-            </p>
-            <a href="/produit.html" class="btn-retour-boutique">Continuer mes achats</a>
-        </div>
+            <div class="compare-grid">
+                <div class="compare-card">
+                    <h3>Respectez les règles de sécurité.</h3>
+                    <p>La consommation de fruits du démon est strictement interdite.</p>
+                </div>
+            </div>
+            <div class="compare-grid">
+                <div class="compare-card">
+                    <h3>En cas d'urgence, contactez les autorités compétentes.</h3>
+                    <p>Si vous ou quelqu'un que vous connaissez a consommé un fruit du démon, contactez immédiatement les services d'urgence.</p>
+                </div>
+            </div>
+            <div class="compare-grid">
+                <div class="compare-card">
+                    <h3><i class="fa-solid fa-skull-crossbones"></i> Ne sous-estimez pas les risques</h3>
+                    <p>Les fruits du démon peuvent causer des effets secondaires graves, y compris la perte de la capacité à nager et d'autres conséquences imprévues. Consommez-les avec prudence.</p>
+                </div>
+            </div>
+        </section>
     </main>
-
-    <script src="/js/main.js"></script>
-    <script src="/js/panier.js"></script>
+    
 </body>
-
 </html>
