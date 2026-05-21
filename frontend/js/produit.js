@@ -95,11 +95,15 @@ function creerCarte(produit) {
 
     return carte;
 }
-
+//fonction pour initialiser les filtres
 function initFiltres() {
+    //on recupere tous les boutons de filtre
     const boutons = document.querySelectorAll('.btn-filtre');
+    //on parcourt tous les boutons
     boutons.forEach(function (btn) {
+        //on ajoute un event listener pour le clic sur le bouton
         btn.addEventListener('click', function () {
+            //on retire la classe active a tous les boutons
             boutons.forEach(function (b) { b.classList.remove('active'); });
             btn.classList.add('active');
 
@@ -118,17 +122,26 @@ function initFiltres() {
         select.addEventListener('change', function () { trier(); });
     }
 }
-
+//fonction pour trier les produits
 function trier() {
+    //on recupere les produits
     const select = document.querySelector('#select-tri');
+    //on copie les produits
     const liste = filtres.slice();
 
+    //si le select existe
     if (select) {
+        //si le select est sur prix croissant
         if (select.value === 'prix-asc') {
+            //on trie les produits par prix croissant
             liste.sort(function (a, b) { return a.prix - b.prix; });
+            //si le select est sur prix décroissant
         } else if (select.value === 'prix-desc') {
+            //on trie les produits par prix décroissant
             liste.sort(function (a, b) { return b.prix - a.prix; });
+            //si le select est sur nom croissant
         } else if (select.value === 'nom-asc') {
+            //on trie les produits par nom croissant
             liste.sort(function (a, b) { return a.nom.localeCompare(b.nom); });
         }
     }
@@ -160,42 +173,47 @@ function chargerDetail(id) {
 }
 
 function creerCarteDetail(produit) {
+    //cree la carte du produit
     const carte = document.createElement('div');
     carte.classList.add('produit-detail');
 
+    //recuperer la description du produit
     let descCourte = produit.description;
     let tronquee = false;
+    //si la description est trop longue
     if (produit.description.length > 150) {
         descCourte = produit.description.substring(0, 150) + '...';
         tronquee = true;
     }
 
+    //recuperer les couleurs du produit
     const couleurs = Array.isArray(produit.couleurs) ? produit.couleurs : [produit.couleurs];
     let htmlCouleurs = couleurs.map(function (c, index) {
-        // La première couleur est sélectionnée par défaut
+
         let classe = index === 0 ? 'badge-couleur actif' : 'badge-couleur';
         return '<span class="' + classe + '" data-couleur="' + c + '">' + c + '</span>';
     }).join('');
 
     const iconeCoeur = estFavori(produit.id) ? 'fa-solid fa-heart favori-actif' : 'fa-regular fa-heart';
 
+    //affiche la carte du produit
     carte.innerHTML = `
-        <div class="detail-images">
-            <div class="carrousel-container">
-                <button id="btn-gauche" class="carrousel-btn">&#10094;</button>
+    <div class="detail-images">
+        <div class="carrousel-container">
+            <button id="btn-gauche" class="carrousel-btn">&#10094;</button>
                 <div class="carrousel-viewport">
                     <div id="carrousel-track">
-                        ${produit.images.map(function(img) {
-                            return '<img src="/assets/' + img + '" alt="' + produit.nom + '" class="carrousel-img">';
-                        }).join('')}
+                        ${produit.images.map(function (img) {
+        return '<img src="/assets/' + img + '" alt="' + produit.nom + '" class="carrousel-img">';
+    }).join('')}
                     </div>
                 </div>
                 <button id="btn-droite" class="carrousel-btn">&#10095;</button>
             </div>
             <div class="mini-images">
-                ${produit.images.map(function(img, i) {
-                    return '<img src="/assets/' + img + '" alt="' + produit.nom + '" class="mini-img" data-index="' + i + '">';
-                }).join('')}
+                ${produit.images.map(function (img, i) {
+        return '<img src="/assets/' + img + '" alt="' + produit.nom + '" class="mini-img" data-index="' + i + '">';
+    }).join('')}
             </div>
         </div>
 
@@ -214,6 +232,17 @@ function creerCarteDetail(produit) {
                 <p id="desc-texte">${descCourte}</p>
                 ${tronquee ? '<button id="btn-voir-plus" class="btn-voir-plus">Voir plus</button>' : ''}
             </div>
+
+            ${produit.spoiler ? `
+            <div class="spoiler-container">
+                <div class="spoiler-overlay">
+                    <button class="btn-spoil">Spoil</button>
+                </div>
+                <div class="spoiler-content">
+                    <p><strong>Spoiler:</strong> ${produit.spoiler}</p>
+                </div>
+            </div>
+            ` : ''}
 
             <div class="detail-caracteristiques">
                 <h4>Caractéristiques</h4>
@@ -254,7 +283,18 @@ function creerCarteDetail(produit) {
         });
     }
 
-    // Gestion de la sélection de la couleur/variante
+
+    const btnSpoil = carte.querySelector('.btn-spoil');
+    if (btnSpoil) {
+        btnSpoil.addEventListener('click', function () {
+            const overlay = carte.querySelector('.spoiler-overlay');
+            if (overlay) {
+                overlay.classList.add('hidden');
+            }
+        });
+    }
+
+
     const badgesCouleurs = carte.querySelectorAll('.badge-couleur');
     badgesCouleurs.forEach(function (badge) {
         badge.addEventListener('click', function () {
@@ -276,7 +316,7 @@ function creerCarteDetail(produit) {
         const qte = parseInt(inputQte.value);
         let panier = lirePanier();
         let trouve = false;
-        
+
         // Récupère la couleur sélectionnée
         const couleurActive = carte.querySelector('.badge-couleur.actif');
         const couleurChoisie = couleurActive ? couleurActive.dataset.couleur : couleurs[0];
@@ -297,13 +337,13 @@ function creerCarteDetail(produit) {
 
         // Sinon on l'ajoute comme nouvel article
         if (!trouve) {
-            panier.push({ 
-                id: produit.id, 
-                nom: produit.nom, 
-                prix: produit.prix, 
-                devise: produit.devise, 
-                image: produit.images[0], 
-                quantite: qte, 
+            panier.push({
+                id: produit.id,
+                nom: produit.nom,
+                prix: produit.prix,
+                devise: produit.devise,
+                image: produit.images[0],
+                quantite: qte,
                 stock: produit.stock,
                 couleur: couleurChoisie
             });
@@ -399,12 +439,14 @@ function chargerSimilaires(produitActuel) {
             });
         });
 }
-
+//Les fonction du panier et favoris
 function lirePanier() {
     return JSON.parse(localStorage.getItem('panier') || '[]');
 }
 
+//fonction favoris
 function estFavori(id) {
+    //fonction qui permet de savoir si un produit est dans les favoris
     let favoris = JSON.parse(localStorage.getItem('favoris') || '[]');
     for (let i = 0; i < favoris.length; i++) {
         if (favoris[i].id === id) return true;
@@ -412,11 +454,15 @@ function estFavori(id) {
     return false;
 }
 
+//fonction pour ajouter un produit aux favoris
 function toggleFavori(produit) {
+    //fonction qui permet de savoir si un produit est dans les favoris
     let favoris = JSON.parse(localStorage.getItem('favoris') || '[]');
     if (estFavori(produit.id)) {
+        //fonction pour retirer un produit des favoris
         favoris = favoris.filter(function (f) { return f.id !== produit.id; });
     } else {
+        //fonction pour ajouter un produit aux favoris
         favoris.push({ id: produit.id, nom: produit.nom, prix: produit.prix, devise: produit.devise, image: produit.images[0], categorie: produit.categorie });
     }
     localStorage.setItem('favoris', JSON.stringify(favoris));

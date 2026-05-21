@@ -25,7 +25,7 @@ function afficherPanier() {
     liste.innerHTML = '';
 
     if (panier.length === 0) {
-        
+
         recap.classList.add('hidden');
         panierVide.classList.remove('hidden');
         return;
@@ -140,15 +140,19 @@ function viderPanier() {
     afficherPanier();
     mettreAJourCompteurPanier();
 }
-
+//fonction pour calculer le total du panier
 function calculerEtAfficherTotal(panier) {
+
     let total = 0;
+    //on parcourt le panier et on ajoute le prix de chaque article au total
     panier.forEach(function (article) {
         total += article.prix * article.quantite;
     });
-
+    //on recupere la devise du panier
     const devise = panier.length > 0 ? panier[0].devise : 'BERRY';
+    //on recupere l'element total du panier
     const totalElem = document.querySelector('#panier-total-prix');
+    //on affiche le total du panier
     if (totalElem) {
         totalElem.textContent = formaterPrix(total) + ' ' + devise;
     }
@@ -162,77 +166,61 @@ function passerCommande() {
         alert('Votre panier est vide !');
         return;
     }
- //fefe
-    // Afficher une alerte après l'achat (ticket)
+
+    // Création du ticket de caisse
     let total = 0;
-    const devise = panier.length > 0 ? panier[0].devise || '' : '';
-    let ticket = 'Commande en cours de traitement...\n\nTICKET DE CAISSE\n\n';
-    panier.forEach(function (a) {
-        const sous = a.prix * a.quantite;
-        total += sous;
-        ticket += `${a.nom} - Qté: ${a.quantite} - Prix: ${formaterPrix(a.prix)} ${a.devise || ''} - Sous-total: ${formaterPrix(sous)} ${a.devise || ''}\n`;
+    let ticket = "Commande en cours de traitement...\n\nTICKET DE CAISSE\n\n";
+
+    panier.forEach(function (article) {
+        let sousTotal = article.prix * article.quantite;
+        total += sousTotal;
+        ticket += article.nom + " - Qté: " + article.quantite + " - Prix: " + formaterPrix(article.prix) + " BERRY - Sous-total: " + formaterPrix(sousTotal) + " BERRY\n";
     });
-    ticket += `\nTOTAL: ${formaterPrix(total)} ${devise} \n\nMerci pour votre achat !`;
+
+    ticket += "\nTOTAL: " + formaterPrix(total) + " BERRY\n\nMerci pour votre achat !";
     alert(ticket);
-//fefe
-    const panierPourServeur = panier.map(function (article) {
-        return { id: article.id, quantite: article.quantite };
-    });
 
-    fetch(API_PANIER_URL, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ panier: panierPourServeur })
-    })
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (resultat) {
-            if (resultat.succes) {
-                
-                localStorage.removeItem('panier');
-                mettreAJourCompteurPanier();
+    // Vider le panier
+    localStorage.removeItem('panier');
+    mettreAJourCompteurPanier();
 
-                document.querySelector('#panier-liste').style.display = 'none';
-                document.querySelector('#panier-recap').style.display = 'none';
-                document.querySelector('#panier-vide').style.display = 'none';
-                document.querySelector('#panier-confirmation').style.display = 'block';
-            } else {
-                
-                const msg = resultat.message || (resultat.erreurs ? resultat.erreurs.join('\n') : 'Erreur inconnue');
-                alert('Impossible de passer la commande :\n' + msg);
-            }
-        })
-        .catch(function (erreur) {
-            console.error('Erreur commande:', erreur);
-            alert('Erreur de connexion au serveur. Vérifiez que le serveur tourne.');
-        });
+    // Afficher l'écran de confirmation
+    document.querySelector('#panier-liste').style.display = 'none';
+    document.querySelector('#panier-recap').style.display = 'none';
+    document.querySelector('#panier-vide').style.display = 'none';
+    document.querySelector('#panier-confirmation').style.display = 'block';
 }
-
+//fonction pour mettre à jour le compteur du panier
 function mettreAJourCompteurPanier() {
+    //on recupere le panier
     let panier = lirePanier();
     let total = 0;
+    //on parcourt le panier et on ajoute le nombre d'articles au compteur
     panier.forEach(function (item) { total += item.quantite; });
 
+    //on recupere l'element compteur
     const compteur = document.querySelector('#compteur-panier');
+    //on affiche le compteur
     if (compteur) {
         compteur.textContent = total;
-        compteur.classList.toggle('hidden', !(total > 0 ));
+        compteur.classList.toggle('hidden', !(total > 0));
     }
 }
 
 function mettreAJourCompteurFavoris() {
+    //on recupere les favoris
     const data = localStorage.getItem('favoris');
     let favoris = data ? JSON.parse(data) : [];
+    //on recupere l'element compteur
     const compteur = document.querySelector('#compteur-favoris');
+    //on affiche le compteur
     if (compteur) {
         compteur.textContent = favoris.length;
-        compteur.classList.toggle('hidden', !(favoris.length > 0 ));
+        compteur.classList.toggle('hidden', !(favoris.length > 0));
     }
 }
-
+//fonction pour formater le prix
 function formaterPrix(prix) {
+    //on formate le prix en le convertissant en chaine de caracteres
     return prix.toLocaleString('fr-FR');
 }

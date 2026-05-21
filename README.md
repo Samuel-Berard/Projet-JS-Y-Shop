@@ -1,6 +1,6 @@
-# Y-Shop
+# Boutique du Naufragé
 
-Bienvenue sur **Y-Shop**, boutique dédiée aux Fruits du Démon de l'univers One Piece. Explorez, découvrez et procurez-vous les fruits les plus rares et puissants de Grand Line !
+Bienvenue sur **Boutique du Naufragé**, boutique dédiée aux Fruits du Démon de l'univers One Piece. Explorez, découvrez et procurez-vous les fruits les plus rares et puissants de Grand Line !
 
 ## Fonctionnalités
 
@@ -21,7 +21,7 @@ Bienvenue sur **Y-Shop**, boutique dédiée aux Fruits du Démon de l'univers On
 1.  **Cloner le dépôt** :
     ```bash
     git clone <url-du-dépôt>
-    cd Projet-JS-Y-Shop
+    cd Projet-JS-Boutique du Naufragé
     ```
 
 2. **demarrage du serveur** :
