@@ -162,7 +162,19 @@ function passerCommande() {
         alert('Votre panier est vide !');
         return;
     }
-
+ //fefe
+    // Afficher une alerte après l'achat (ticket)
+    let total = 0;
+    const devise = panier.length > 0 ? panier[0].devise || '' : '';
+    let ticket = 'Commande en cours de traitement...\n\nTICKET DE CAISSE\n\n';
+    panier.forEach(function (a) {
+        const sous = a.prix * a.quantite;
+        total += sous;
+        ticket += `${a.nom} - Qté: ${a.quantite} - Prix: ${formaterPrix(a.prix)} ${a.devise || ''} - Sous-total: ${formaterPrix(sous)} ${a.devise || ''}\n`;
+    });
+    ticket += `\nTOTAL: ${formaterPrix(total)} ${devise} \n\nMerci pour votre achat !`;
+    alert(ticket);
+//fefe
     const panierPourServeur = panier.map(function (article) {
         return { id: article.id, quantite: article.quantite };
     });
