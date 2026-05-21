@@ -17,14 +17,14 @@ function majCompteurs() {
     const cp = document.querySelector('#compteur-panier');
     if (cp) {
         cp.textContent = total;
-        cp.style.display = total > 0 ? 'inline-flex' : 'none';
+        cp.classList.toggle('hidden', !(total > 0 ));
     }
 
     let favoris = JSON.parse(localStorage.getItem('favoris') || '[]');
     const cf = document.querySelector('#compteur-favoris');
     if (cf) {
         cf.textContent = favoris.length;
-        cf.style.display = favoris.length > 0 ? 'inline-flex' : 'none';
+        cf.classList.toggle('hidden', !(favoris.length > 0 ));
     }
 }
 

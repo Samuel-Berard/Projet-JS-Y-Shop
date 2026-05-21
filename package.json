@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node backend/app.js",
-    "dev": "nodemon backend/app.js"
+    "start:back": "node backend/app.js",
+    "dev:back": "nodemon backend/app.js",
+    "start:front": "npx http-server frontend -p 5500 -c-1",
+    "start": "echo \"Veuillez utiliser 'npm run start:back' dans un terminal et 'npm run start:front' dans un autre terminal.\""
   },
   "repository": {
     "type": "git",

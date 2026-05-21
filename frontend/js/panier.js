@@ -15,6 +15,7 @@ function sauvegarderPanier(panier) {
     localStorage.setItem('panier', JSON.stringify(panier));
 }
 
+// Affiche le contenu du panier sur la page
 function afficherPanier() {
     let panier = lirePanier();
     const liste = document.querySelector('#panier-liste');
@@ -25,13 +26,13 @@ function afficherPanier() {
 
     if (panier.length === 0) {
         
-        recap.style.display = 'none';
-        panierVide.style.display = 'block';
+        recap.classList.add('hidden');
+        panierVide.classList.remove('hidden');
         return;
     }
 
-    panierVide.style.display = 'none';
-    recap.style.display = 'block';
+    panierVide.classList.add('hidden');
+    recap.classList.remove('hidden');
 
     panier.forEach(function (article) {
         const ligne = creerLignePanier(article);
@@ -53,10 +54,13 @@ function afficherPanier() {
     };
 }
 
+// Crée l'élément HTML pour une ligne (un article) du panier
 function creerLignePanier(article) {
     const ligne = document.createElement('div');
     ligne.classList.add('panier-article');
+    // On utilise l'id et la couleur pour identifier l'article unique
     ligne.dataset.id = article.id;
+    ligne.dataset.couleur = article.couleur || '';
 
     ligne.innerHTML = `
         <div class="panier-article-image">
@@ -64,6 +68,7 @@ function creerLignePanier(article) {
         </div>
         <div class="panier-article-info">
             <h4 class="panier-article-nom">${article.nom}</h4>
+            ${article.couleur ? '<p class="panier-article-couleur">Couleur: ' + article.couleur + '</p>' : ''}
             <p class="panier-article-prix">${formaterPrix(article.prix)} ${article.devise}</p>
         </div>
         <div class="panier-article-quantite">
@@ -80,25 +85,27 @@ function creerLignePanier(article) {
     `;
 
     ligne.querySelector('.btn-moins-panier').addEventListener('click', function () {
-        changerQuantite(article.id, -1);
+        changerQuantite(article.id, article.couleur, -1);
     });
 
     ligne.querySelector('.btn-plus-panier').addEventListener('click', function () {
-        changerQuantite(article.id, 1);
+        changerQuantite(article.id, article.couleur, 1);
     });
 
     ligne.querySelector('.btn-supprimer-article').addEventListener('click', function () {
-        supprimerArticle(article.id);
+        supprimerArticle(article.id, article.couleur);
     });
 
     return ligne;
 }
 
-function changerQuantite(id, delta) {
+// Modifie la quantité d'un article dans le panier
+function changerQuantite(id, couleur, delta) {
     let panier = lirePanier();
 
     for (let i = 0; i < panier.length; i++) {
-        if (panier[i].id === id) {
+        // On vérifie l'id ET la couleur
+        if (panier[i].id === id && panier[i].couleur === couleur) {
             if (delta > 0 && panier[i].stock !== undefined && panier[i].quantite + delta > panier[i].stock) {
                 alert('Stock insuffisant pour augmenter la quantité.');
                 return;
@@ -117,10 +124,11 @@ function changerQuantite(id, delta) {
     mettreAJourCompteurPanier();
 }
 
-function supprimerArticle(id) {
+// Supprime un article du panier
+function supprimerArticle(id, couleur) {
     let panier = lirePanier();
     panier = panier.filter(function (article) {
-        return article.id !== id;
+        return !(article.id === id && article.couleur === couleur);
     });
     sauvegarderPanier(panier);
     afficherPanier();
@@ -146,6 +154,7 @@ function calculerEtAfficherTotal(panier) {
     }
 }
 
+// Envoie la commande au serveur backend
 function passerCommande() {
     let panier = lirePanier();
 
@@ -198,7 +207,7 @@ function mettreAJourCompteurPanier() {
     const compteur = document.querySelector('#compteur-panier');
     if (compteur) {
         compteur.textContent = total;
-        compteur.style.display = total > 0 ? 'inline-flex' : 'none';
+        compteur.classList.toggle('hidden', !(total > 0 ));
     }
 }
 
@@ -208,7 +217,7 @@ function mettreAJourCompteurFavoris() {
     const compteur = document.querySelector('#compteur-favoris');
     if (compteur) {
         compteur.textContent = favoris.length;
-        compteur.style.display = favoris.length > 0 ? 'inline-flex' : 'none';
+        compteur.classList.toggle('hidden', !(favoris.length > 0 ));
     }
 }
 

@@ -18,11 +18,11 @@ function afficherFavoris() {
 
     if (favoris.length === 0) {
         
-        favorisVide.style.display = 'block';
+        favorisVide.classList.remove('hidden');
         return;
     }
 
-    favorisVide.style.display = 'none';
+    favorisVide.classList.add('hidden');
 
     favoris.forEach(function (produit) {
         const carte = creerCarteFavori(produit);
@@ -78,7 +78,7 @@ function mettreAJourCompteurFavoris() {
     const compteur = document.querySelector('#compteur-favoris');
     if (compteur) {
         compteur.textContent = favoris.length;
-        compteur.style.display = favoris.length > 0 ? 'inline-flex' : 'none';
+        compteur.classList.toggle('hidden', !(favoris.length > 0 ));
     }
 }
 
@@ -91,7 +91,7 @@ function mettreAJourCompteurPanier() {
     const compteur = document.querySelector('#compteur-panier');
     if (compteur) {
         compteur.textContent = total;
-        compteur.style.display = total > 0 ? 'inline-flex' : 'none';
+        compteur.classList.toggle('hidden', !(total > 0 ));
     }
 }
 

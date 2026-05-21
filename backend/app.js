@@ -1,7 +1,6 @@
 
 const express = require('express');
 const cors = require('cors');
-const path = require('path');
 const produitsRouter = require('./router/produits');
 const panierRouter = require('./router/panier');
 
@@ -18,10 +17,9 @@ app.use('/api/contact', contactRouter);
 
 app.use('/api/panier', panierRouter);
 
-app.use(express.static(path.join(__dirname, '../frontend')));
-
+// Gestion des routes API inexistantes
 app.use((req, res) => {
-    res.status(404).sendFile(path.join(__dirname, '../frontend/404.html'));
+    res.status(404).json({ message: "Route API introuvable." });
 });
 
 app.listen(PORT, () => {

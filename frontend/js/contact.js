@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         alert('Votre message a bien été envoyé !');
                         formContact.reset();
                     } else {
-                        alert('Erreur lors de l\'envoi du message : ' + (data.erreur || 'Erreur inconnue'));
+                        alert('Erreur lors de l'envoi du message : ' + (data.erreur || 'Erreur inconnue'));
                     }
                 })
                 .catch(error => {

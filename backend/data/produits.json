@@ -1,357 +1,357 @@
 [
-    {
-        "id": 1,
-        "nom": "Gomu Gomu no mi / Fruit du caoutchouc",
-        "description": "Le Gomu Gomu no mi est un Fruit du Démon de type Paramecia qui confère à son utilisateur un corps élastique.",
-        "stock": 17,
-        "prix": 1000000000,
-        "devise": "BERRY",
-        "images": [
-            "Gomu_Gomu_no_Mi_Fruit.webp",
-            "Gomu_Gomu_no_Mi_Anime_Infobox.webp"
-        ],
-        "categorie": "Paramecia",
-        "couleurs": "violet",
-        "Ancien détenteur": "Monkey D. Luffy",
-        "spoiler": "spoiler"
-    },
-    {
-        "id": 2,
-        "nom": "Hito Hito no mi / Fruit de l'Humain",
-        "description": "Le Hito Hito no mi est un Fruit du Démon de type Zoan qui permet à son utilisateur de se transformer en hybride humain ou en humain à part entière.",
-        "stock": 44,
-        "prix": 500000000,
-        "devise": "BERRY",
-        "images": [
-            "Hito_Hito_no_Mi_Fruit.webp",
-            "Tony_Tony_Chopper_Anime_Post_Ellipse_Infobox.webp"
-        ],
-        "categorie": "Zoan",
-        "couleurs": [
-            "Rouge",
-            "Beige"
-        ],
-        "Ancien détenteur": "Tony Tony Chopper",
-        "spoiler": "spoiler"
-    },
-    {
-        "id": 3,
-        "nom": "Mera Mera no mi / Pyro-Fruit",
-        "description": "Le Mera Mera no mi est un Fruit du Démon de type Logia qui permet à son utilisateur de créer, contrôler et de se transformer en feu et flammes à volonté.",
-        "stock": 17,
-        "prix": 3000000000,
-        "devise": "BERRY",
-        "images": [
-            "Mera_Mera_no_Mi_Fruit_Anime.webp",
-            "Mera_Mera_no_Mi_Anime_Infobox.webp"
-        ],
-        "categorie": "Logia",
-        "couleurs": "orange",
-        "Ancien détenteur": "Portgas D. Ace, Sabo",
-        "spoiler": "spoiler"
-    },
-    {
-        "id": 4,
-        "nom": "Yomi Yomi no mi / Fruit de la résurrection",
-        "description": "Le Yomi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un Homme-Ressucité.",
-        "stock": 18,
-        "prix": 10000000000,
-        "devise": "BERRY",
-        "images": [
-            "Yomi_Yomi_no_Mi_Fruit.webp",
-            "Yomi_Yomi_no_Mi_Anime_infobox.webp"
-        ],
-        "categorie": "Paramecia",
-        "couleurs": [
-            "Rouge",
-            "Jaune"
-        ],
-        "Ancien détenteur": "Brook le Fredonneur",
-        "spoiler": "spoiler"
-    },
-    {
-        "id": 5,
-        "nom": "Yami Yami no mi / Fruit des Ténèbres",
-        "description": "Le Yami Yami no mi est un Fruit du Démon de type Logia qui permet à son utilisateur de produire, devenir et contrôler les ténèbres, le transformant ainsi en Homme-Ténèbres",
-        "stock": 3,
-        "prix": 50000000000,
-        "devise": "BERRY",
-        "images": [
-            "Yami_Yami_no_Mi_Fruit_Anime.webp",
-            "Yami_Yami_no_Mi_Anime_Infobox.webp"
-        ],
-        "categorie": "Logia",
-        "couleurs": "Lavande",
-        "Ancien détenteur": "Marshall D. Teach alias Barbe Noire",
-        "spoiler": "spoiler"
-    },
-    {
-        "id": 6,
-        "nom": "Gura Gura no mi / Fruit du Temblement",
-        "description": "Le Gura Gura no mi est un Fruit du Démon de type Paramecia qui permet de transformer son utilisateur en un Homme Tremblement de Terre.",
-        "stock": 67,
-        "prix": 20000000000,
-        "devise": "BERRY",
-        "images": [
-            "Gura_Gura_no_Mi_Fruit.webp",
-            "Gura_Gura_no_Mi_Anime_Infobox.webp"
-        ],
-        "categorie": "Paramecia",
-        "couleurs": [
-            "Violet",
-            "Blanc"
-        ],
-        "Ancien détenteur": "Edward Newgate alias Barbe Blanche, Marshall D. Teach alias Barbe Noire",
-        "spoiler": "spoiler"
-    },
-    {
-        "id": 7,
-        "nom": "Uo Uo no mi / Fruit du Dragon Azur",
-        "description": "Le Uo Uo no mi est un Fruit du Démon de type Zoan Mythique. Il permet de transformer son utilisateur en dragon azur.",
-        "stock": 5000,
-        "prix": 200000000,
-        "devise": "BERRY",
-        "images": [
-            "Uo_Uo_no_Mi3Fle_Seiryu_Fruit.webp",
-            "Uo_Uo_no_Mi3Fle_Seiryu_Forme_Animale_Anime_Infobox.webp"
-        ],
-        "categorie": "Zoan Mythique",
-        "couleurs": [
-            "Bleu clair",
-            "Bleu foncé"
-        ],
-        "Ancien détenteur": "Kaido aux 100 Bêtes",
-        "spoiler": "spoiler"
-    },
-    {
-        "id": 8,
-        "nom": "Soru Soru no mi / Fruit des Âmes",
-        "description": "Le Soru Soru no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur d'interagir avec les âmes et les durées de vie des personnes, de les rendre physiques et de les intégrer dans des animaux ou objets.",
-        "stock": 6,
-        "prix": 10000000000,
-        "devise": "BERRY",
-        "images": [
-            "Soru_Soru.webp",
-            "Soru_Soru_no_Mi_Anime_Infobox.webp"
-        ],
-        "categorie": "Paramecia",
-        "couleurs": [
-            "Rose",
-            "Violet"
-        ],
-        "Ancien détenteur": "Caramel, Big Mom alias Charlotte Linlin",
-        "spoiler": "spoiler"
-    },
-    {
-        "id": 9,
-        "nom": "Ito Ito no mi / Fruit des fils",
-        "description": "Le Ito Ito no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de créer et de manipuler des fils invisibles afin de les utiliser pour contrôler ses adversaires tels des marionnettes, découper toute chose, des personnes ou des bâtiments et même s'en servir pour voler dans le ciel en accrochant ces fils aux nuages, transformant ainsi son utilisateur en Homme-Fils.",
-        "stock": 78,
-        "prix": 500000000,
-        "devise": "BERRY",
-        "images": [
-            "Ito_Ito_no_Mi_Fruit_Anime.webp",
-            "Ito_Ito_no_Mi_Anime_Infobox.webp"
-        ],
-        "categorie": "Paramecia",
-        "couleurs": "Blanc",
-        "Ancien détenteur": "Joker alias Donquixote Doflamingo",
-        "spoiler": "spoiler"
-    },
-    {
-        "id": 10,
-        "nom": "Hie Hie no mi / Givro-Fruit",
-        "description": "Le Hie Hie no mi est un Fruit du Démon de type Logia qui permet à son utilisateur de créer, contrôler et de devenir de la glace, le transformant en Homme-Congelant.",
-        "stock": 69,
-        "prix": 100000000000,
-        "devise": "BERRY",
-        "images": [
-            "Hie_Hie_no_Mi.webp",
-            "Hie_Hie_no_Mi_Anime_Infobox.webp"
-        ],
-        "categorie": "Logia",
-        "couleurs": "Bleu clair",
-        "Ancien détenteur": "Amiral Aokiji alias Kuzan",
-        "spoiler": "spoiler"
-    },
-    {
-        "id": 11,
-        "nom": "Hana Hana no mi / Fruit des éclosions",
-        "description": "Le Hana Hana no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de copier des parties de son corps pour les faire éclore comme des fleurs. L'utlisatrice peut faire apparaître ces parties du corps n'importe où dans son champ de vision et au-delà.",
-        "stock": 4,
-        "prix": 1000000000000,
-        "devise": "BERRY",
-        "images": [
-            "Hana_Hana_no_Mi_Fruit.webp",
-            "Hana_Hana_no_Mi_Anime_Infobox.webp"
-        ],
-        "categorie": "Paramecia",
-        "couleurs": [
-            "Rose",
-            "Jaune"
-        ],
-        "Ancien détenteur": "Nico Robin",
-        "spoiler": "spoiler"
-    },
-    {
-        "id": 12,
-        "nom": "Doku Doku no mi / Fruit du Venin",
-        "description": "Le Doku Doku no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de produire et de contrôler différents types de poisons, et donne la faculté à son utilisateur d'être immunisé contre ceux-ci, le transformant ainsi en Homme-Poison.",
-        "stock": 23,
-        "prix": 1200000000,
-        "devise": "BERRY",
-        "images": [
-            "Doku_Doku_no_Mi.webp",
-            "Doku_Doku_no_Mi_Anime_Infobox.webp"
-        ],
-        "categorie": "Paramecia",
-        "couleurs": [
-            "Violet",
-            "Vert",
-            "Rose"
-        ],
-        "Ancien détenteur": "Magellan",
-        "spoiler": "spoiler"
-    },
-    {
-        "id": 13,
-        "nom": "Mane Mane no mi / Travesti-Fruit",
-        "description": "Le Mane Mane no mi est un Fruit du Démon de type Paramecia permettant à l'utilisateur de se transformer en n'importe quelle personne qu'elle touche avec ses mains, faisant de lui un Homme Imitateur. Ceci inclut la force, la vitesse et la flexibilité de la victime.",
-        "stock": 10,
-        "prix": 100000000000,
-        "devise": "BERRY",
-        "images": [
-            "Mane_Mane_no_Mi_Fruit.webp",
-            "Mane_Mane_no_Mi_Anime_Infobox.webp"
-        ],
-        "categorie": "Paramecia",
-        "couleurs": [
-            "Orange clair",
-            "Beige"
-        ],
-        "Ancien détenteur": "Bentham alias Mr. 2 Bon Clay",
-        "spoiler": "spoiler"
-    },
-    {
-        "id": 14,
-        "nom": "Suna Suna no mi / Fruit des Sables",
-        "description": "Le Suna Suna no mi est un Fruit du Démon de type Logia mangé par Crocodile, qui lui permet de produire à volonté, de contrôler et de se transformer en sable, transformant l'utilisateur en Homme-Sable.",
-        "stock": 13,
-        "prix": 60000000,
-        "devise": "BERRY",
-        "images": [
-            "Suna_Suna_no_Mi_Fruit.webp",
-            "Suna_Suna_no_Mi_Anime_Infobox.webp"
-        ],
-        "categorie": "Logia",
-        "couleurs": [
-            "Vert clair",
-            "Vert foncé"
-        ],
-        "Ancien détenteur": "Crocodile",
-        "spoiler": "spoiler"
-    },
-    {
-        "id": 15,
-        "nom": "Mero Mero no mi / Fruit de la passion",
-        "description": "Le Mero Mero no mi est un Fruit du Démon de type Paramecia qui permet à celui qui l'a mangé d'émettre un rayon qui transforme en pierre tous les gens ressentant de l'amour (perverti) envers le possesseur du fruit du démon et qui rend la quasi-totalité des personnes qui regardent l'utilisateur amoureux de ce dernier.",
-        "stock": 47,
-        "prix": 1000000,
-        "devise": "BERRY",
-        "images": [
-            "Mera_Mera_no_Mi_Fruit_Anime.webp",
-            "Mera_Mera_no_Mi_Anime_Infobox.webp"
-        ],
-        "categorie": "Paramecia",
-        "couleurs": [
-            "Rouge",
-            "Violet",
-            "Rose"
-        ],
-        "Ancien détenteur": "Boa Hancock",
-        "spoiler": "spoiler"
-    },
-    {
-        "id": 16,
-        "nom": "Ope Ope no mi / Fruit du Bistouri",
-        "description": "Le Ope Ope no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de créer une sphère d'aura bleue claire translucide, où l'utilisateur peut contrôler comme bon lui semble le placement et l'orientation des objets et des êtres vivants à l'intérieur.",
-        "stock": 3,
-        "prix": 5000000000,
-        "devise": "BERRY",
-        "images": [
-            "Ope_Ope_no_Mi_Fruit_Anime.webp",
-            "Ope_Ope_no_Mi_Anime_Infobox.webp"
-        ],
-        "categorie": "Paramecia",
-        "couleurs": "Rouge",
-        "Ancien détenteur": "Trafalgar D. Water Law",
-        "spoiler": "spoiler"
-    },
-    {
-        "id": 17,
-        "nom": "Nagi Nagi no mi / Fruit de la Sourdine",
-        "description": "Le Nagi Nagi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de créer un champ insonorisé et de supprimer tout type de son, faisant de lui un Homme Insonorisant.",
-        "stock": 25,
-        "prix": 3000000,
-        "devise": "BERRY",
-        "images": [
-            "Nagi_Nagi_no_Mi.webp",
-            "Nagi_Nagi_no_Mi_Anime_Infobox.webp"
-        ],
-        "categorie": "Paramecia",
-        "couleurs": "Violet",
-        "Ancien détenteur": "Corazón alias Donquixote Rosinante",
-        "spoiler": "spoiler"
-    },
-    {
-        "id": 18,
-        "nom": "Pika Pika no mi / Fruit du Flash",
-        "description": "Le Pika Pika no mi est un Fruit du Démon de type Logia qui permet à l'utilisateur de créer, contrôler et de devenir de la lumière, faisant de l'utilisateur un Homme-Lumière .",
-        "stock": 2,
-        "prix": 6000000000000,
-        "devise": "BERRY",
-        "images": [
-            "Fruta26.webp",
-            "Pika_Pika_no_Mi_Anime_Infobox.webp"
-        ],
-        "categorie": "Logia",
-        "couleurs": "Jaune",
-        "Ancien détenteur": "Amiral Kizaru alias Borsalino",
-        "spoiler": "spoiler"
-    },
-    {
-        "id": 19,
-        "nom": "Goro Goro no mi / Fulguro-Fruit",
-        "description": "Le Goro Goro no mi est un Fruit du Démon de type Logia qui permet à son utilisateur de se transformer, de produire à volonté ainsi que contrôler l'électricité, faisant du mangeur un Homme-Foudre.",
-        "stock": 8,
-        "prix": 700000000,
-        "devise": "BERRY",
-        "images": [
-            "Goro_Goro_no_Mi_Fruit.webp",
-            "Goro_Goro_no_Mi_Anime_Infobox.webp"
-        ],
-        "categorie": "Logia",
-        "couleurs": "Jaune",
-        "Ancien détenteur": "Dieu Ener",
-        "spoiler": "spoiler"
-    },
-    {
-        "id": 20,
-        "nom": "Moku Moku no mi / Fruit Fumigène",
-        "description": "Le Moku Moku no mi est un Fruit du Démon de type Logia qui transforme celui qui le mange en Homme-Fumée. Il permet à son utilisateur de maîtriser, de produire à volonté et de se transformer en fumée.",
-        "stock": 56,
-        "prix": 9000000,
-        "devise": "BERRY",
-        "images": [
-            "Moku_Moku_no_Mi_Fruit.webp",
-            "Moku_Moku_no_Mi_Anime_Infobox.webp"
-        ],
-        "categorie": "Logia",
-        "couleurs": [
-            "Blanc",
-            "Gris"
-        ],
-        "Ancien détenteur": "Le chasseur Blanc alias Smoker",
-        "spoiler": "spoiler"
-    }
+  {
+    "id": 1,
+    "nom": "Gomu Gomu no mi / Fruit du caoutchouc",
+    "description": "Le Gomu Gomu no mi est un Fruit du Démon de type Paramecia qui confère à son utilisateur un corps élastique. Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 17,
+    "prix": 1000000000,
+    "devise": "BERRY",
+    "images": [
+      "Gomu_Gomu_no_Mi_Fruit.webp",
+      "Gomu_Gomu_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": "violet",
+    "Ancien détenteur": "Monkey D. Luffy",
+    "spoiler": "spoiler"
+  },
+  {
+    "id": 2,
+    "nom": "Hito Hito no mi / Fruit de l'Humain",
+    "description": "Le Hito Hito no mi est un Fruit du Démon de type Zoan qui permet à son utilisateur de se transformer en hybride humain ou en humain à part entière. Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 44,
+    "prix": 500000000,
+    "devise": "BERRY",
+    "images": [
+      "Hito_Hito_no_Mi_Fruit.webp",
+      "Tony_Tony_Chopper_Anime_Post_Ellipse_Infobox.webp"
+    ],
+    "categorie": "Zoan",
+    "couleurs": [
+      "Rouge",
+      "Beige"
+    ],
+    "Ancien détenteur": "Tony Tony Chopper",
+    "spoiler": "spoiler"
+  },
+  {
+    "id": 3,
+    "nom": "Mera Mera no mi / Pyro-Fruit",
+    "description": "Le Mera Mera no mi est un Fruit du Démon de type Logia qui permet à son utilisateur de créer, contrôler et de se transformer en feu et flammes à volonté. Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 17,
+    "prix": 3000000000,
+    "devise": "BERRY",
+    "images": [
+      "Mera_Mera_no_Mi_Fruit_Anime.webp",
+      "Mera_Mera_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Logia",
+    "couleurs": "orange",
+    "Ancien détenteur": "Portgas D. Ace, Sabo",
+    "spoiler": "spoiler"
+  },
+  {
+    "id": 4,
+    "nom": "Yomi Yomi no mi / Fruit de la résurrection",
+    "description": "Le Yomi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un Homme-Ressucité. Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 18,
+    "prix": 10000000000,
+    "devise": "BERRY",
+    "images": [
+      "Yomi_Yomi_no_Mi_Fruit.webp",
+      "Yomi_Yomi_no_Mi_Anime_infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": [
+      "Rouge",
+      "Jaune"
+    ],
+    "Ancien détenteur": "Brook le Fredonneur",
+    "spoiler": "spoiler"
+  },
+  {
+    "id": 5,
+    "nom": "Yami Yami no mi / Fruit des Ténèbres",
+    "description": "Le Yami Yami no mi est un Fruit du Démon de type Logia qui permet à son utilisateur de produire, devenir et contrôler les ténèbres, le transformant ainsi en Homme-Ténèbres Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 3,
+    "prix": 50000000000,
+    "devise": "BERRY",
+    "images": [
+      "Yami_Yami_no_Mi_Fruit_Anime.webp",
+      "Yami_Yami_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Logia",
+    "couleurs": "Lavande",
+    "Ancien détenteur": "Marshall D. Teach alias Barbe Noire",
+    "spoiler": "spoiler"
+  },
+  {
+    "id": 6,
+    "nom": "Gura Gura no mi / Fruit du Temblement",
+    "description": "Le Gura Gura no mi est un Fruit du Démon de type Paramecia qui permet de transformer son utilisateur en un Homme Tremblement de Terre. Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 67,
+    "prix": 20000000000,
+    "devise": "BERRY",
+    "images": [
+      "Gura_Gura_no_Mi_Fruit.webp",
+      "Gura_Gura_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": [
+      "Violet",
+      "Blanc"
+    ],
+    "Ancien détenteur": "Edward Newgate alias Barbe Blanche, Marshall D. Teach alias Barbe Noire",
+    "spoiler": "spoiler"
+  },
+  {
+    "id": 7,
+    "nom": "Uo Uo no mi / Fruit du Dragon Azur",
+    "description": "Le Uo Uo no mi est un Fruit du Démon de type Zoan Mythique. Il permet de transformer son utilisateur en dragon azur. Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 5000,
+    "prix": 200000000,
+    "devise": "BERRY",
+    "images": [
+      "Uo_Uo_no_Mi3Fle_Seiryu_Fruit.webp",
+      "Uo_Uo_no_Mi3Fle_Seiryu_Forme_Animale_Anime_Infobox.webp"
+    ],
+    "categorie": "Zoan Mythique",
+    "couleurs": [
+      "Bleu clair",
+      "Bleu foncé"
+    ],
+    "Ancien détenteur": "Kaido aux 100 Bêtes",
+    "spoiler": "spoiler"
+  },
+  {
+    "id": 8,
+    "nom": "Soru Soru no mi / Fruit des Âmes",
+    "description": "Le Soru Soru no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur d'interagir avec les âmes et les durées de vie des personnes, de les rendre physiques et de les intégrer dans des animaux ou objets.",
+    "stock": 6,
+    "prix": 10000000000,
+    "devise": "BERRY",
+    "images": [
+      "Soru_Soru.webp",
+      "Soru_Soru_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": [
+      "Rose",
+      "Violet"
+    ],
+    "Ancien détenteur": "Caramel, Big Mom alias Charlotte Linlin",
+    "spoiler": "spoiler"
+  },
+  {
+    "id": 9,
+    "nom": "Ito Ito no mi / Fruit des fils",
+    "description": "Le Ito Ito no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de créer et de manipuler des fils invisibles afin de les utiliser pour contrôler ses adversaires tels des marionnettes, découper toute chose, des personnes ou des bâtiments et même s'en servir pour voler dans le ciel en accrochant ces fils aux nuages, transformant ainsi son utilisateur en Homme-Fils.",
+    "stock": 78,
+    "prix": 500000000,
+    "devise": "BERRY",
+    "images": [
+      "Ito_Ito_no_Mi_Fruit_Anime.webp",
+      "Ito_Ito_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": "Blanc",
+    "Ancien détenteur": "Joker alias Donquixote Doflamingo",
+    "spoiler": "spoiler"
+  },
+  {
+    "id": 10,
+    "nom": "Hie Hie no mi / Givro-Fruit",
+    "description": "Le Hie Hie no mi est un Fruit du Démon de type Logia qui permet à son utilisateur de créer, contrôler et de devenir de la glace, le transformant en Homme-Congelant. Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 69,
+    "prix": 100000000000,
+    "devise": "BERRY",
+    "images": [
+      "Hie_Hie_no_Mi.webp",
+      "Hie_Hie_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Logia",
+    "couleurs": "Bleu clair",
+    "Ancien détenteur": "Amiral Aokiji alias Kuzan",
+    "spoiler": "spoiler"
+  },
+  {
+    "id": 11,
+    "nom": "Hana Hana no mi / Fruit des éclosions",
+    "description": "Le Hana Hana no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de copier des parties de son corps pour les faire éclore comme des fleurs. L'utlisatrice peut faire apparaître ces parties du corps n'importe où dans son champ de vision et au-delà.",
+    "stock": 4,
+    "prix": 1000000000000,
+    "devise": "BERRY",
+    "images": [
+      "Hana_Hana_no_Mi_Fruit.webp",
+      "Hana_Hana_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": [
+      "Rose",
+      "Jaune"
+    ],
+    "Ancien détenteur": "Nico Robin",
+    "spoiler": "spoiler"
+  },
+  {
+    "id": 12,
+    "nom": "Doku Doku no mi / Fruit du Venin",
+    "description": "Le Doku Doku no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de produire et de contrôler différents types de poisons, et donne la faculté à son utilisateur d'être immunisé contre ceux-ci, le transformant ainsi en Homme-Poison.",
+    "stock": 23,
+    "prix": 1200000000,
+    "devise": "BERRY",
+    "images": [
+      "Doku_Doku_no_Mi.webp",
+      "Doku_Doku_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": [
+      "Violet",
+      "Vert",
+      "Rose"
+    ],
+    "Ancien détenteur": "Magellan",
+    "spoiler": "spoiler"
+  },
+  {
+    "id": 13,
+    "nom": "Mane Mane no mi / Travesti-Fruit",
+    "description": "Le Mane Mane no mi est un Fruit du Démon de type Paramecia permettant à l'utilisateur de se transformer en n'importe quelle personne qu'elle touche avec ses mains, faisant de lui un Homme Imitateur. Ceci inclut la force, la vitesse et la flexibilité de la victime.",
+    "stock": 10,
+    "prix": 100000000000,
+    "devise": "BERRY",
+    "images": [
+      "Mane_Mane_no_Mi_Fruit.webp",
+      "Mane_Mane_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": [
+      "Orange clair",
+      "Beige"
+    ],
+    "Ancien détenteur": "Bentham alias Mr. 2 Bon Clay",
+    "spoiler": "spoiler"
+  },
+  {
+    "id": 14,
+    "nom": "Suna Suna no mi / Fruit des Sables",
+    "description": "Le Suna Suna no mi est un Fruit du Démon de type Logia mangé par Crocodile, qui lui permet de produire à volonté, de contrôler et de se transformer en sable, transformant l'utilisateur en Homme-Sable.",
+    "stock": 13,
+    "prix": 60000000,
+    "devise": "BERRY",
+    "images": [
+      "Suna_Suna_no_Mi_Fruit.webp",
+      "Suna_Suna_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Logia",
+    "couleurs": [
+      "Vert clair",
+      "Vert foncé"
+    ],
+    "Ancien détenteur": "Crocodile",
+    "spoiler": "spoiler"
+  },
+  {
+    "id": 15,
+    "nom": "Mero Mero no mi / Fruit de la passion",
+    "description": "Le Mero Mero no mi est un Fruit du Démon de type Paramecia qui permet à celui qui l'a mangé d'émettre un rayon qui transforme en pierre tous les gens ressentant de l'amour (perverti) envers le possesseur du fruit du démon et qui rend la quasi-totalité des personnes qui regardent l'utilisateur amoureux de ce dernier.",
+    "stock": 47,
+    "prix": 1000000,
+    "devise": "BERRY",
+    "images": [
+      "Mera_Mera_no_Mi_Fruit_Anime.webp",
+      "Mera_Mera_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": [
+      "Rouge",
+      "Violet",
+      "Rose"
+    ],
+    "Ancien détenteur": "Boa Hancock",
+    "spoiler": "spoiler"
+  },
+  {
+    "id": 16,
+    "nom": "Ope Ope no mi / Fruit du Bistouri",
+    "description": "Le Ope Ope no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de créer une sphère d'aura bleue claire translucide, où l'utilisateur peut contrôler comme bon lui semble le placement et l'orientation des objets et des êtres vivants à l'intérieur.",
+    "stock": 3,
+    "prix": 5000000000,
+    "devise": "BERRY",
+    "images": [
+      "Ope_Ope_no_Mi_Fruit_Anime.webp",
+      "Ope_Ope_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": "Rouge",
+    "Ancien détenteur": "Trafalgar D. Water Law",
+    "spoiler": "spoiler"
+  },
+  {
+    "id": 17,
+    "nom": "Nagi Nagi no mi / Fruit de la Sourdine",
+    "description": "Le Nagi Nagi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de créer un champ insonorisé et de supprimer tout type de son, faisant de lui un Homme Insonorisant. Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 25,
+    "prix": 3000000,
+    "devise": "BERRY",
+    "images": [
+      "Nagi_Nagi_no_Mi.webp",
+      "Nagi_Nagi_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": "Violet",
+    "Ancien détenteur": "Corazón alias Donquixote Rosinante",
+    "spoiler": "spoiler"
+  },
+  {
+    "id": 18,
+    "nom": "Pika Pika no mi / Fruit du Flash",
+    "description": "Le Pika Pika no mi est un Fruit du Démon de type Logia qui permet à l'utilisateur de créer, contrôler et de devenir de la lumière, faisant de l'utilisateur un Homme-Lumière . Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 2,
+    "prix": 6000000000000,
+    "devise": "BERRY",
+    "images": [
+      "Fruta26.webp",
+      "Pika_Pika_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Logia",
+    "couleurs": "Jaune",
+    "Ancien détenteur": "Amiral Kizaru alias Borsalino",
+    "spoiler": "spoiler"
+  },
+  {
+    "id": 19,
+    "nom": "Goro Goro no mi / Fulguro-Fruit",
+    "description": "Le Goro Goro no mi est un Fruit du Démon de type Logia qui permet à son utilisateur de se transformer, de produire à volonté ainsi que contrôler l'électricité, faisant du mangeur un Homme-Foudre. Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 8,
+    "prix": 700000000,
+    "devise": "BERRY",
+    "images": [
+      "Goro_Goro_no_Mi_Fruit.webp",
+      "Goro_Goro_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Logia",
+    "couleurs": "Jaune",
+    "Ancien détenteur": "Dieu Ener",
+    "spoiler": "spoiler"
+  },
+  {
+    "id": 20,
+    "nom": "Moku Moku no mi / Fruit Fumigène",
+    "description": "Le Moku Moku no mi est un Fruit du Démon de type Logia qui transforme celui qui le mange en Homme-Fumée. Il permet à son utilisateur de maîtriser, de produire à volonté et de se transformer en fumée. Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 56,
+    "prix": 9000000,
+    "devise": "BERRY",
+    "images": [
+      "Moku_Moku_no_Mi_Fruit.webp",
+      "Moku_Moku_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Logia",
+    "couleurs": [
+      "Blanc",
+      "Gris"
+    ],
+    "Ancien détenteur": "Le chasseur Blanc alias Smoker",
+    "spoiler": "spoiler"
+  }
 ]

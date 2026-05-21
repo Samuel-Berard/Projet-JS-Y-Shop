@@ -1007,14 +1007,22 @@ header.sticky {
 
 .carrousel-viewport {
     flex: 1;
-    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
     border-radius: 12px;
-    background: #f5f5f7;
+    background: var(--white-color);
 }
+
+.carrousel-viewport::-webkit-scrollbar {
+    display: none;
+}
+
 
 #carrousel-track {
     display: flex;
-    transition: transform 0.4s ease;
+
 }
 
 .carrousel-img {
@@ -2069,8 +2077,15 @@ header.sticky {
 }
 
 @keyframes floatIcon {
-    0%, 100% { transform: translateY(0); }
-    50%       { transform: translateY(-8px); }
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
 }
 
 .remb-hero h1 {
@@ -2527,7 +2542,7 @@ header.sticky {
     margin-bottom: 8px;
 }
 
-.contact-form-container > p {
+.contact-form-container>p {
     font-size: 16px;
     color: #86868b;
     margin-bottom: 32px;
@@ -2610,3 +2625,13 @@ header.sticky {
 
 
 
+
+
+/* Utility classes */
+.hidden {
+    display: none !important;
+}
+
+.pointer-cursor {
+    cursor: pointer !important;
+}
