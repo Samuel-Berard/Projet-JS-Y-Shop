@@ -1,0 +1,357 @@
+[
+  {
+    "id": 1,
+    "nom": "Gomu Gomu no mi / Fruit du caoutchouc",
+    "description": "Le Gomu Gomu no mi est un Fruit du Démon de type Paramecia qui confère à son utilisateur un corps élastique. Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 17,
+    "prix": 1000000000,
+    "devise": "BERRY",
+    "images": [
+      "Gomu_Gomu_no_Mi_Fruit.webp",
+      "Gomu_Gomu_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": "violet",
+    "Ancien détenteur": "Monkey D. Luffy",
+    "spoiler": "Le Gomu Gomu no Mi est en réalité le Hito Hito no Mi, modèle Nika, un Fruit du Démon de type Zoan Mythique ! Ce fruit a été mangé il y a environ 900 ans par Joy Boy. Sous sa forme éveillée (le Gear Fifth), le véritable pouvoir du fruit est libéré : les cheveux et les vêtements de l'utilisateur deviennent blancs, ses yeux brillent de rouge, lui donnant l'apparence du mythique Dieu du Soleil, Nika. Cela transforme l'utilisateur en Guerrier Libérateur, lui conférant les pouvoirs les plus extravagants du monde et la capacité de se battre selon sa fantaisie tout en donnant le sourire aux gens."
+  },
+  {
+    "id": 2,
+    "nom": "Hito Hito no mi / Fruit de l'Humain",
+    "description": "Le Hito Hito no mi est un Fruit du Démon de type Zoan qui permet à son utilisateur de se transformer en hybride humain ou en humain à part entière. Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 43,
+    "prix": 500000000,
+    "devise": "BERRY",
+    "images": [
+      "Hito_Hito_no_Mi_Fruit.webp",
+      "Tony_Tony_Chopper_Anime_Post_Ellipse_Infobox.webp"
+    ],
+    "categorie": "Zoan",
+    "couleurs": [
+      "Rouge",
+      "Beige"
+    ],
+    "Ancien détenteur": "Tony Tony Chopper",
+    "spoiler": "Le Fruit des Fils, consommé par le terrifiant Don Quichotte Doflamingo, permet de contrôler des personnes entières comme des marionnettes avec sa technique \"Parasite\" (forçant jadis le Roi Riku à attaquer son propre peuple). Doflamingo peut \"voler\" en s'accrochant aux nuages, créer un clone parfait de lui-même, et recoudre ses propres organes ! Son attaque ultime, la terrifiante \"Birdcage\" (Cage à Oiseaux), enferme une île entière sous un dôme de fils acérés et indestructibles qui se referme pour tuer tout le monde. Doflamingo a même \"éveillé\" ce fruit : il peut transformer tout son environnement, comme les bâtiments et le sol de Dressrosa, en une mer de fils dévastateurs !"
+  },
+  {
+    "id": 3,
+    "nom": "Mera Mera no mi / Pyro-Fruit",
+    "description": "Le Mera Mera no mi est un Fruit du Démon de type Logia qui permet à son utilisateur de créer, contrôler et de se transformer en feu et flammes à volonté. Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 17,
+    "prix": 3000000000,
+    "devise": "BERRY",
+    "images": [
+      "Mera_Mera_no_Mi_Fruit_Anime.webp",
+      "Mera_Mera_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Logia",
+    "couleurs": "orange",
+    "Ancien détenteur": "Portgas D. Ace, Sabo",
+    "spoiler": "Ce fruit a initialement été mangé par Portgas D. Ace. Après la mort tragique d'Ace lors de la bataille de Marineford, le fruit s'est réincarné et a été récupéré par le grand corsaire Don Quichotte Doflamingo. Doflamingo l'a utilisé comme grand prix d'un tournoi au Colisée de Dressrosa pour piéger Luffy. Finalement, c'est Sabo (le frère spirituel de Luffy, que l'on croyait mort) qui prend la place de Luffy dans le tournoi. Sabo remporte le Mera Mera no Mi, le mange et hérite ainsi de la volonté et des pouvoirs de feu d'Ace, déclenchant pour sa première attaque le célèbre \"Hiken\" (Poing Ardent) !"
+  },
+  {
+    "id": 4,
+    "nom": "Yomi Yomi no mi / Fruit de la résurrection",
+    "description": "Le Yomi Yomi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de revenir à la vie après sa mort, faisant de lui un Homme-Ressucité. Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 18,
+    "prix": 10000000000,
+    "devise": "BERRY",
+    "images": [
+      "Yomi_Yomi_no_Mi_Fruit.webp",
+      "Yomi_Yomi_no_Mi_Anime_infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": [
+      "Rouge",
+      "Jaune"
+    ],
+    "Ancien détenteur": "Brook le Fredonneur",
+    "spoiler": "Ce fruit est unique car il n'a aucune utilité tant que son utilisateur est vivant ! Brook l'a mangé il y a plus de 50 ans, et c'est seulement après sa mort que son âme est revenue de l'au-delà pour le ressusciter. Malheureusement, à cause de l'épais brouillard du Triangle de Florian, son âme a erré un an avant de retrouver son navire : son corps n'était plus qu'un squelette (avec sa coupe afro intacte !). Après l'ellipse, Brook découvre le véritable potentiel de son fruit : il peut détacher son âme pour devenir un fantôme, se ré-assembler s'il est décapité, et même invoquer le blizzard glacial du monde des morts pour geler ses ennemis avec son épée !"
+  },
+  {
+    "id": 5,
+    "nom": "Yami Yami no mi / Fruit des Ténèbres",
+    "description": "Le Yami Yami no mi est un Fruit du Démon de type Logia qui permet à son utilisateur de produire, devenir et contrôler les ténèbres, le transformant ainsi en Homme-Ténèbres Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 3,
+    "prix": 50000000000,
+    "devise": "BERRY",
+    "images": [
+      "Yami_Yami_no_Mi_Fruit_Anime.webp",
+      "Yami_Yami_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Logia",
+    "couleurs": "Lavande",
+    "Ancien détenteur": "Marshall D. Teach alias Barbe Noire",
+    "spoiler": "Ce fruit extrêmement dangereux a été convoité par Marshall D. Teach pendant des années. Pour l'obtenir, Teach n'a pas hésité à assassiner Satch, commandant de l'équipage de Barbe Blanche, déclenchant ainsi la quête de vengeance d'Ace. Ce fruit permet de créer des trous noirs et, fait unique, d'annuler complètement les pouvoirs des autres Fruits du Démon par simple contact ! Plus terrifiant encore, grâce à ce pouvoir, Barbe Noire a réussi l'impossible à Marineford : voler les pouvoirs du Gura Gura no Mi sur le corps sans vie de Barbe Blanche, devenant ainsi la première personne de l'histoire à posséder deux pouvoirs de Fruits du Démon simultanément !"
+  },
+  {
+    "id": 6,
+    "nom": "Gura Gura no mi / Fruit du Temblement",
+    "description": "Le Gura Gura no mi est un Fruit du Démon de type Paramecia qui permet de transformer son utilisateur en un Homme Tremblement de Terre. Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 67,
+    "prix": 20000000000,
+    "devise": "BERRY",
+    "images": [
+      "Gura_Gura_no_Mi_Fruit.webp",
+      "Gura_Gura_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": [
+      "Violet",
+      "Blanc"
+    ],
+    "Ancien détenteur": "Edward Newgate alias Barbe Blanche, Marshall D. Teach alias Barbe Noire",
+    "spoiler": "Considéré par Sengoku comme le plus puissant des Paramecia, ce fruit donne littéralement le pouvoir de détruire le monde en générant des séismes dévastateurs et des tsunamis gigantesques ! Il a appartenu à l'Empereur Edward Newgate, alias Barbe Blanche. Cependant, lors de la terrible guerre de Marineford, juste après la mort tragique de Barbe Blanche, ce pouvoir terrifiant a été volé d'une manière mystérieuse par Marshall D. Teach (Barbe Noire). Teach possède désormais le pouvoir de tout détruire avec le Gura Gura no Mi, qu'il combine avec l'annihilation totale de son Yami Yami no Mi !"
+  },
+  {
+    "id": 7,
+    "nom": "Uo Uo no mi / Fruit du Dragon Azur",
+    "description": "Le Uo Uo no mi est un Fruit du Démon de type Zoan Mythique. Il permet de transformer son utilisateur en dragon azur. Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 5000,
+    "prix": 200000000,
+    "devise": "BERRY",
+    "images": [
+      "Uo_Uo_no_Mi3Fle_Seiryu_Fruit.webp",
+      "Uo_Uo_no_Mi3Fle_Seiryu_Forme_Animale_Anime_Infobox.webp"
+    ],
+    "categorie": "Zoan Mythique",
+    "couleurs": [
+      "Bleu clair",
+      "Bleu foncé"
+    ],
+    "Ancien détenteur": "Kaido aux 100 Bêtes",
+    "spoiler": "Ce Fruit de type Zoan Mythique a un passé mouvementé : lors de l'incident de God Valley il y a 38 ans, Big Mom l'a volé à Emporio Ivankov. Mais Kaido l'a prise de vitesse, l'assommant pour dévorer le fruit lui-même et s'enfuir avec ce pouvoir incroyable ! C'est ainsi que Kaido est devenu un dragon oriental géant (le Dragon Azur), capable de cracher des souffles ardents et de faire léviter l'île d'Onigashima avec ses nuages de flammes. Fait rarissime : le génial Docteur Vegapunk a réussi à cloner ce pouvoir à partir de l'ADN de Kaido pour créer un fruit artificiel parfait, qui sera mangé des années plus tard par Kozuki Momonosuke !"
+  },
+  {
+    "id": 8,
+    "nom": "Soru Soru no mi / Fruit des Âmes",
+    "description": "Le Soru Soru no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur d'interagir avec les âmes et les durées de vie des personnes, de les rendre physiques et de les intégrer dans des animaux ou objets.",
+    "stock": 6,
+    "prix": 10000000000,
+    "devise": "BERRY",
+    "images": [
+      "Soru_Soru.webp",
+      "Soru_Soru_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": [
+      "Rose",
+      "Violet"
+    ],
+    "Ancien détenteur": "Caramel, Big Mom alias Charlotte Linlin",
+    "spoiler": "Le redoutable Fruit des Âmes a d'abord appartenu à Mother Caramel il y a plus de 63 ans. À sa mort (dans de sombres et mystérieuses circonstances impliquant un goûter d'anniversaire), le pouvoir a été directement transféré à Charlotte Linlin, alias Big Mom ! L'Impératrice l'utilise pour arracher des années d'espérance de vie à tous ceux qui la craignent et pour donner vie à des objets, les fameux Homies. Big Mom a même insufflé sa propre âme pour créer ses armes terrifiantes : le soleil Prométhée, le nuage Zeus (puis Héra), et l'épée Napoléon. En cas de situation critique, elle peut sacrifier sa propre espérance de vie pour décupler sa taille et sa puissance !"
+  },
+  {
+    "id": 9,
+    "nom": "Ito Ito no mi / Fruit des fils",
+    "description": "Le Ito Ito no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de créer et de manipuler des fils invisibles afin de les utiliser pour contrôler ses adversaires tels des marionnettes, découper toute chose, des personnes ou des bâtiments et même s'en servir pour voler dans le ciel en accrochant ces fils aux nuages, transformant ainsi son utilisateur en Homme-Fils.",
+    "stock": 78,
+    "prix": 500000000,
+    "devise": "BERRY",
+    "images": [
+      "Ito_Ito_no_Mi_Fruit_Anime.webp",
+      "Ito_Ito_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": "Blanc",
+    "Ancien détenteur": "Joker alias Donquixote Doflamingo",
+    "spoiler": "Le Fruit des Fils, consommé par le terrifiant Don Quichotte Doflamingo, permet de contrôler des personnes entières comme des marionnettes avec sa technique 'Parasite' (forçant jadis le Roi Riku à attaquer son propre peuple). Doflamingo peut 'voler' en s'accrochant aux nuages, créer un clone parfait de lui-même, et recoudre ses propres organes ! Son attaque ultime, la terrifiante 'Birdcage' (Cage à Oiseaux), enferme une île entière sous un dôme de fils acérés et indestructibles qui se referme pour tuer tout le monde. Doflamingo a même 'éveillé' ce fruit : il peut transformer tout son environnement, comme les bâtiments et le sol de Dressrosa, en une mer de fils dévastateurs !"
+  },
+  {
+    "id": 10,
+    "nom": "Hie Hie no mi / Givro-Fruit",
+    "description": "Le Hie Hie no mi est un Fruit du Démon de type Logia qui permet à son utilisateur de créer, contrôler et de devenir de la glace, le transformant en Homme-Congelant. Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 69,
+    "prix": 100000000000,
+    "devise": "BERRY",
+    "images": [
+      "Hie_Hie_no_Mi.webp",
+      "Hie_Hie_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Logia",
+    "couleurs": "Bleu clair",
+    "Ancien détenteur": "Amiral Aokiji alias Kuzan",
+    "spoiler": "Le Givro-Fruit a été mangé par l'ancien Amiral Kuzan, alias Aokiji. Ce pouvoir exceptionnel lui permet de geler un tsunami gigantesque en un instant, ou de se déplacer sur l'océan en gelant la surface, ce qui en fait l'un des rares utilisateurs capables de contrer la noyade ! Kuzan a réussi l'exploit de modifier de manière permanente le climat de la moitié de l'île de Punk Hazard (la transformant en désert de glace) lors de son duel titanesque de 10 jours contre Akainu pour le poste d'Amiral en Chef. Suite à ce combat où il a perdu sa jambe gauche, il utilise désormais sa glace pour se créer une prothèse sur mesure !"
+  },
+  {
+    "id": 11,
+    "nom": "Hana Hana no mi / Fruit des éclosions",
+    "description": "Le Hana Hana no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de copier des parties de son corps pour les faire éclore comme des fleurs. L'utlisatrice peut faire apparaître ces parties du corps n'importe où dans son champ de vision et au-delà.",
+    "stock": 4,
+    "prix": 1000000000000,
+    "devise": "BERRY",
+    "images": [
+      "Hana_Hana_no_Mi_Fruit.webp",
+      "Hana_Hana_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": [
+      "Rose",
+      "Jaune"
+    ],
+    "Ancien détenteur": "Nico Robin",
+    "spoiler": "Le Fruit des Éclosions a été mangé par Nico Robin lorsqu'elle avait 8 ans ! Il lui permet de faire pousser n'importe quelle partie de son corps (bras, jambes, yeux...) sur n'importe quelle surface, comme des fleurs. Elle s'en sert pour briser la nuque ou le dos de ses adversaires avec ses terribles prises de soumission (Clutch). Après deux ans d'entraînement, elle peut créer jusqu'à 1000 bras pour former des membres géants (Gigantesco Mano), et même générer un clone complet d'elle-même ! Sa forme ultime et terrifiante est le \"Demonio Fleur\" : Robin crée un gigantesque clone d'elle-même sous forme de démon, avec des ailes de chauve-souris et des cornes, pour anéantir ses ennemis !"
+  },
+  {
+    "id": 12,
+    "nom": "Doku Doku no mi / Fruit du Venin",
+    "description": "Le Doku Doku no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de produire et de contrôler différents types de poisons, et donne la faculté à son utilisateur d'être immunisé contre ceux-ci, le transformant ainsi en Homme-Poison.",
+    "stock": 23,
+    "prix": 1200000000,
+    "devise": "BERRY",
+    "images": [
+      "Doku_Doku_no_Mi.webp",
+      "Doku_Doku_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": [
+      "Violet",
+      "Vert",
+      "Rose"
+    ],
+    "Ancien détenteur": "Magellan",
+    "spoiler": "Le Fruit du Venin a été mangé par Magellan, le terrifiant directeur d'Impel Down. Il lui permet de créer des poisons mortels et d'en être totalement immunisé (bien que sa gourmandise l'oblige à passer 10 heures par jour aux toilettes pour maux de ventre !). Son attaque signature, l'Hydra, forme un énorme dragon de poison à trois têtes paralysant ses victimes. Mais son pouvoir le plus redoutable est son attaque ultime \"Venom Demon : Jigoku no Shinpan\". Magellan génère un gigantesque démon d'un poison rougeâtre interdit, si toxique et corrosif qu'il dissout même la pierre et le métal. Ce pouvoir est tellement puissant qu'il pourrait détruire la prison d'Impel Down toute entière !"
+  },
+  {
+    "id": 13,
+    "nom": "Mane Mane no mi / Travesti-Fruit",
+    "description": "Le Mane Mane no mi est un Fruit du Démon de type Paramecia permettant à l'utilisateur de se transformer en n'importe quelle personne qu'elle touche avec ses mains, faisant de lui un Homme Imitateur. Ceci inclut la force, la vitesse et la flexibilité de la victime.",
+    "stock": 10,
+    "prix": 100000000000,
+    "devise": "BERRY",
+    "images": [
+      "Mane_Mane_no_Mi_Fruit.webp",
+      "Mane_Mane_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": [
+      "Orange clair",
+      "Beige"
+    ],
+    "Ancien détenteur": "Bentham alias Mr. 2 Bon Clay",
+    "spoiler": "Le Travesti-Fruit permet à son utilisateur de devenir une copie parfaite (visage, corps, voix, force physique) de n'importe quelle personne qu'il touche de la main droite ! L'utilisateur actuel est l'héroïque Okama Bentham (Mr. 2 Bon Clay), qui s'en sert avec brio pour l'infiltration, se déguisant tour à tour en roi Nefertari Cobra, Zoro, Nami, ou encore le directeur de prison Magellan. Cependant, le fruit ne copie pas les pouvoirs des autres Fruits du Démon ! Fait historique terrifiant : il y a plus de 41 ans, ce fruit appartenait à la perfide Kurozumi Higurashi. Elle l'a utilisé pour manipuler tout le pays des Wa en se transformant en Kozuki Oden et Kozuki Sukiyaki, avant d'être finalement tuée par Kaido !"
+  },
+  {
+    "id": 14,
+    "nom": "Suna Suna no mi / Fruit des Sables",
+    "description": "Le Suna Suna no mi est un Fruit du Démon de type Logia mangé par Crocodile, qui lui permet de produire à volonté, de contrôler et de se transformer en sable, transformant l'utilisateur en Homme-Sable.",
+    "stock": 13,
+    "prix": 60000000,
+    "devise": "BERRY",
+    "images": [
+      "Suna_Suna_no_Mi_Fruit.webp",
+      "Suna_Suna_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Logia",
+    "couleurs": [
+      "Vert clair",
+      "Vert foncé"
+    ],
+    "Ancien détenteur": "Crocodile",
+    "spoiler": "Le Fruit des Sables a été mangé par l'ancien Grand Corsaire Crocodile. Ce puissant fruit Logia le rend insensible aux attaques physiques en transformant son corps en sable, et lui permet de déclencher de gigantesques tempêtes (\"Sables\"). Mais son pouvoir le plus terrifiant est sa capacité à tout dessécher de sa main droite : il peut vider un humain de son eau en un instant, ou transformer un environnement entier (bâtiments, sol, roche) en un désert aride (\"Ground Death\") ! Sa seule grande faiblesse est l'eau (ou tout liquide), qui agglomère le sable et annule son intangibilité. C'est d'ailleurs grâce à cette faiblesse que Luffy a finalement réussi à le vaincre à Alabasta, après avoir subi deux graves défaites !"
+  },
+  {
+    "id": 15,
+    "nom": "Mero Mero no mi / Fruit de la passion",
+    "description": "Le Mero Mero no mi est un Fruit du Démon de type Paramecia qui permet à celui qui l'a mangé d'émettre un rayon qui transforme en pierre tous les gens ressentant de l'amour (perverti) envers le possesseur du fruit du démon et qui rend la quasi-totalité des personnes qui regardent l'utilisateur amoureux de ce dernier.",
+    "stock": 47,
+    "prix": 1000000,
+    "devise": "BERRY",
+    "images": [
+      "Mero_Mero_no_Mi_Anime_Infobox.webp",
+      "Mero_Mero_no_Mi_Fruit.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": [
+      "Rouge",
+      "Violet",
+      "Rose"
+    ],
+    "Ancien détenteur": "Boa Hancock",
+    "spoiler": "Le Fruit de la passion permet d'émettre un rayon (\"Mero Mero Mellow\") qui transforme instantanément en pierre quiconque ressent de l'amour ou du désir pour l'utilisateur ! Il a été mangé par la sublime Impératrice Boa Hancock, à qui les ignobles Dragons Célestes l'ont fait avaler de force pour se divertir alors qu'elle était leur esclave. Pour cacher ce passé tragique, elle a inventé le mythe de la \"malédiction de la Gorgone\". Grâce à sa beauté inégalée, presque personne ne résiste à son rayon pétrifiant. De plus, par simple contact physique (\"Perfume Femur\"), elle peut pétrifier et briser n'importe quel adversaire ou objet, même s'il n'éprouve aucun sentiment ! Fait amusant : Sanji s'est littéralement changé en pierre rien qu'en la voyant, sans même qu'elle n'utilise son pouvoir !"
+  },
+  {
+    "id": 16,
+    "nom": "Ope Ope no mi / Fruit du Bistouri",
+    "description": "Le Ope Ope no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de créer une sphère d'aura bleue claire translucide, où l'utilisateur peut contrôler comme bon lui semble le placement et l'orientation des objets et des êtres vivants à l'intérieur.",
+    "stock": 3,
+    "prix": 5000000000,
+    "devise": "BERRY",
+    "images": [
+      "Ope_Ope_no_Mi_Fruit_Anime.webp",
+      "Ope_Ope_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": "Rouge",
+    "Ancien détenteur": "Trafalgar D. Water Law",
+    "spoiler": "Le Fruit du Bistouri offre un pouvoir surpuissant : créer une zone d'opération (\"Room\") où l'utilisateur, tel un chirurgien, peut découper, déplacer, ou même échanger les personnalités de n'importe qui ! Son détenteur actuel, Trafalgar D. Water Law, a été sauvé d'une maladie mortelle grâce à ce fruit que Corazon lui a fait avaler de force il y a 13 ans. Il est souvent considéré comme l'Ultime Fruit du Démon (estimé à 5 milliards de Berrys !) pour une raison précise que convoitait Doflamingo : son utilisateur peut réaliser l'\"Opération de Jouvence\" et accorder l'immortalité à une personne... au prix de sa propre vie ! Avec l'éveil du fruit (\"Kroom\"), Law peut même générer des ondes de choc qui détruisent l'adversaire de l'intérieur !"
+  },
+  {
+    "id": 17,
+    "nom": "Nagi Nagi no mi / Fruit de la Sourdine",
+    "description": "Le Nagi Nagi no mi est un Fruit du Démon de type Paramecia qui permet à son utilisateur de créer un champ insonorisé et de supprimer tout type de son, faisant de lui un Homme Insonorisant. Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 25,
+    "prix": 3000000,
+    "devise": "BERRY",
+    "images": [
+      "Nagi_Nagi_no_Mi.webp",
+      "Nagi_Nagi_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Paramecia",
+    "couleurs": "Violet",
+    "Ancien détenteur": "Corazón alias Donquixote Rosinante",
+    "spoiler": "Le Fruit de la Sourdine permet de supprimer tout bruit, créant des zones de silence absolu indétectables (\"Silence\", \"Calme\"). Bien qu'il n'offre aucune force de frappe (au grand dam du jeune Law qui le trouvait \"nul\" !), c'est le pouvoir ultime pour l'infiltration et l'espionnage. Il a été mangé par Don Quichotte Rossinante (alias Corazon), le frère de Doflamingo et agent double de la Marine ! Corazon s'en est servi brillamment pour faire croire qu'il était muet, cacher ses appels avec l'Amiral Sengoku, et surtout s'infiltrer dans un repaire de pirates dans un silence total pour voler l'Ope Ope no Mi afin de sauver Law ! À sa mort tragique, le fruit est revenu en circulation."
+  },
+  {
+    "id": 18,
+    "nom": "Pika Pika no mi / Fruit du Flash",
+    "description": "Le Pika Pika no mi est un Fruit du Démon de type Logia qui permet à l'utilisateur de créer, contrôler et de devenir de la lumière, faisant de l'utilisateur un Homme-Lumière . Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 2,
+    "prix": 6000000000000,
+    "devise": "BERRY",
+    "images": [
+      "Fruta26.webp",
+      "Pika_Pika_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Logia",
+    "couleurs": "Jaune",
+    "Ancien détenteur": "Amiral Kizaru alias Borsalino",
+    "spoiler": "Le Fruit du Flash est un redoutable Logia mangé par l'Amiral Kizaru (Borsalino). Il lui permet de se transformer, de produire et de contrôler la lumière, faisant de lui l'homme théoriquement le plus rapide du monde ! Il décime ses adversaires avec des coups de pied à la vitesse de la lumière (comme face aux 4 Supernovae à Sabaody) et des tirs lasers surpuissants (comme sa tempête de faisceaux \"Yasakani no Magatama\"). Comme la lumière ne se déplace qu'en ligne droite, il utilise la réflexion sur son environnement pour ricocher à toute vitesse (\"Yata no Kagami\"). Le potentiel destructeur de ce fruit est si grand que le Dr. Vegapunk en a étudié les lasers pour armer les redoutables cyborgs Pacifistas !"
+  },
+  {
+    "id": 19,
+    "nom": "Goro Goro no mi / Fulguro-Fruit",
+    "description": "Le Goro Goro no mi est un Fruit du Démon de type Logia qui permet à son utilisateur de se transformer, de produire à volonté ainsi que contrôler l'électricité, faisant du mangeur un Homme-Foudre. Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 8,
+    "prix": 700000000,
+    "devise": "BERRY",
+    "images": [
+      "Goro_Goro_no_Mi_Fruit.webp",
+      "Goro_Goro_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Logia",
+    "couleurs": "Jaune",
+    "Ancien détenteur": "Dieu Ener",
+    "spoiler": "Le Fulguro-Fruit est un Logia d'une puissance inouïe, réputé \"invincible\", mangé par le \"Dieu\" Ener de Skypiéa. Il permet de manipuler et de devenir la foudre ! Avec des décharges allant jusqu'à 200 millions de volts, Ener lance des attaques divines dévastatrices (\"El Thor\", \"Raigo\") capables d'annihiler des îles entières. Il l'utilise avec une polyvalence terrifiante : se déplacer à la vitesse de l'éclair, fondre l'or, étendre son Mantra (Haki de l'Observation) sur toute l'île pour espionner chacun, et même relancer son propre cœur blessé comme un défibrillateur ! Son unique et véritable faiblesse ? Le caoutchouc ! C'est ce qui a permis à Luffy, dont le corps isolant (Gomu Gomu no Mi) le rend insensible à l'électricité, de terrasser ce prétendu Dieu !"
+  },
+  {
+    "id": 20,
+    "nom": "Moku Moku no mi / Fruit Fumigène",
+    "description": "Le Moku Moku no mi est un Fruit du Démon de type Logia qui transforme celui qui le mange en Homme-Fumée. Il permet à son utilisateur de maîtriser, de produire à volonté et de se transformer en fumée. Ce fruit du démon unique vous confère des capacités extraordinaires qui changeront votre vie à jamais. Méfiez-vous cependant de la malédiction des mers qui vous empêchera de nager !",
+    "stock": 56,
+    "prix": 9000000,
+    "devise": "BERRY",
+    "images": [
+      "Moku_Moku_no_Mi_Fruit.webp",
+      "Moku_Moku_no_Mi_Anime_Infobox.webp"
+    ],
+    "categorie": "Logia",
+    "couleurs": [
+      "Blanc",
+      "Gris"
+    ],
+    "Ancien détenteur": "Le chasseur Blanc alias Smoker",
+    "spoiler": "Le Fruit Fumigène a été mangé par le Vice-Amiral Smoker, ce qui lui a valu le redoutable surnom de \"Chasseur Blanc\" ! Ce Logia lui permet de générer, de contrôler et de se transformer en fumée. Smoker l'utilise brillamment pour voler, propulser sa moto terrestre (la Billower Bike), mais surtout pour capturer ses proies : il engloutit ses ennemis dans un nuage enfumé (\"White Out\", \"White Snake\") avant d'en augmenter la densité pour les immobiliser totalement ! Fait remarquable : face au feu (comme contre le Mera Mera no Mi d'Ace à Alabasta), la fumée et les flammes s'annulent parfaitement sans qu'aucun ne prenne l'avantage !"
+  }
+]
