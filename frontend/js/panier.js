@@ -99,6 +99,10 @@ function changerQuantite(id, delta) {
 
     for (let i = 0; i < panier.length; i++) {
         if (panier[i].id === id) {
+            if (delta > 0 && panier[i].stock !== undefined && panier[i].quantite + delta > panier[i].stock) {
+                alert('Stock insuffisant pour augmenter la quantité.');
+                return;
+            }
             panier[i].quantite += delta;
 
             if (panier[i].quantite <= 0) {

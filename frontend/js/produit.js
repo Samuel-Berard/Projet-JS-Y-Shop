@@ -59,7 +59,7 @@ function creerCarte(produit) {
     carte.innerHTML = `
         <div class="product-images">
             <img src="/assets/${produit.images[0]}" alt="${produit.nom}" class="product-img img-principale">
-            <img src="/assets/${produit.images[1]}" alt="${produit.nom}" class="product-img img-secondaire">
+            <img src="/assets/${produit.images[1] || produit.images[0]}" alt="${produit.nom}" class="product-img img-secondaire">
         </div>
         <div class="product-text">
             <h5>${produit.categorie}</h5>
@@ -157,7 +157,7 @@ function creerCarteDetail(produit) {
     const carte = document.createElement('div');
     carte.classList.add('produit-detail');
 
-    const descCourte = produit.description;
+    let descCourte = produit.description;
     let tronquee = false;
     if (produit.description.length > 150) {
         descCourte = produit.description.substring(0, 150) + '...';
@@ -260,14 +260,19 @@ function creerCarteDetail(produit) {
 
         for (let i = 0; i < panier.length; i++) {
             if (panier[i].id === produit.id) {
+                if (panier[i].quantite + qte > produit.stock) {
+                    notif('Stock insuffisant ! Vous avez atteint la limite.');
+                    return;
+                }
                 panier[i].quantite += qte;
+                panier[i].stock = produit.stock;
                 trouve = true;
                 break;
             }
         }
 
         if (!trouve) {
-            panier.push({ id: produit.id, nom: produit.nom, prix: produit.prix, devise: produit.devise, image: produit.images[0], quantite: qte });
+            panier.push({ id: produit.id, nom: produit.nom, prix: produit.prix, devise: produit.devise, image: produit.images[0], quantite: qte, stock: produit.stock });
         }
 
         localStorage.setItem('panier', JSON.stringify(panier));
