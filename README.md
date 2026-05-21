@@ -26,7 +26,7 @@ Avant de hisser les voiles, assurez-vous d'avoir installé les outils suivants :
 
 1.  **Cloner le dépôt** :
     ```bash
-    git clone <url-du-dépôt>
+    git clone https://github.com/Samuel-Berard/Projet-JS-Y-Shop.git
     cd Projet-JS-Y-Shop
     ```
 
