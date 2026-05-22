@@ -46,8 +46,4 @@ Avant de hisser les voiles, assurez-vous d'avoir installé les outils suivants :
     ```
 
 4. **Accéder au site** :
-    Rendez-vous sur votre navigateur web via l'une des adresses suivantes :
-    ```text
-    http://192.168.1.253:5500
-    http://127.0.0.1:5500
-    ```
+    Rendez-vous sur votre navigateur web via l'une des adresses fournie dans le terminal du frontend
